@@ -63,9 +63,6 @@ export default function TreatmentsPage() {
                 {/* Top Navy Header Strip */}
                 <div className="relative z-10 bg-gradient-to-r from-[#0a2240] to-[#133863] px-6 py-4 flex items-center justify-between border-b border-cyan-400/25">
                   <div className="flex items-center gap-2.5">
-                    <span className="text-xs font-mono font-bold px-2.5 py-1 rounded-lg bg-white/15 border border-cyan-300/30 text-cyan-200">
-                      {t.id}
-                    </span>
                     <span className="text-[11px] font-semibold uppercase tracking-widest text-slate-300">
                       Clinic Treatment
                     </span>

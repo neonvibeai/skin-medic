@@ -247,9 +247,6 @@ export default function Navbar() {
                 >
                   <div className="flex items-center justify-between">
                     <span className="font-serif font-bold text-sm text-[#0a2240]">ZO® Skin Health</span>
-                    <span className="text-[9px] bg-blue-100 text-[#0a2240] px-2 py-0.5 rounded-full font-bold">
-                      PRIMARY
-                    </span>
                   </div>
                   <span className="text-[11px] text-slate-500">By Dr. Zein Obagi MD • 42 Products</span>
                 </Link>
@@ -260,9 +257,6 @@ export default function Navbar() {
                 >
                   <div className="flex items-center justify-between">
                     <span className="font-serif font-bold text-sm text-slate-900">Obagi® Medical</span>
-                    <span className="text-[9px] bg-slate-100 text-slate-700 px-2 py-0.5 rounded-full font-bold">
-                      CLINICAL
-                    </span>
                   </div>
                   <span className="text-[11px] text-slate-500">Transformative Systems • 23 Products</span>
                 </Link>
@@ -287,7 +281,7 @@ export default function Navbar() {
 
               <div className="absolute top-full left-0 w-80 bg-white rounded-2xl shadow-xl border border-slate-200 p-2.5 opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 z-50">
                 <div className="px-3 py-1.5 text-[10px] font-bold text-slate-400 uppercase tracking-wider border-b border-slate-100 mb-1 flex items-center justify-between">
-                  <span>In-Clinic Procedures (01 – 09)</span>
+                  <span>In-Clinic Procedures</span>
                   <Tag className="w-3 h-3 text-cyan-600" />
                 </div>
                 <div className="max-h-[380px] overflow-y-auto space-y-0.5 pr-1">
@@ -298,9 +292,6 @@ export default function Navbar() {
                       className="p-2.5 rounded-xl hover:bg-slate-50 text-xs font-semibold text-slate-800 hover:text-[#0a2240] flex items-center justify-between transition group"
                     >
                       <div className="flex items-center gap-2">
-                        <span className="w-6 h-6 rounded-md bg-slate-100 group-hover:bg-[#0a2240] group-hover:text-cyan-300 text-[10px] font-mono font-bold flex items-center justify-center transition">
-                          {t.id}
-                        </span>
                         <span>{t.title}</span>
                       </div>
                       <span className="text-[10px] text-slate-500 font-medium">
@@ -456,7 +447,7 @@ export default function Navbar() {
                   onClick={() => setMobileMenuOpen(false)}
                   className="block py-1.5 text-sm font-semibold text-[#0a2240]"
                 >
-                  ZO® Skin Health (Primary Flagship)
+                  ZO® Skin Health
                 </Link>
                 <Link
                   href="/brands/obagi-medical"
@@ -474,7 +465,7 @@ export default function Navbar() {
                 onClick={() => setMobileMenuOpen(false)}
                 className="text-base font-bold text-slate-900 block mb-1"
               >
-                In-Clinic Treatments (01 – 09)
+                In-Clinic Treatments
               </Link>
               <div className="pl-3 space-y-1 text-xs">
                 {allTreatments.map((t) => (
@@ -484,7 +475,7 @@ export default function Navbar() {
                     onClick={() => setMobileMenuOpen(false)}
                     className="block py-1 text-slate-700 font-medium hover:text-[#0a2240]"
                   >
-                    {t.id} — {t.title}
+                    {t.title}
                   </Link>
                 ))}
               </div>

@@ -50,9 +50,6 @@ export default function TreatmentDetailClient({ treatment }: Props) {
         {/* Hero / Header Card */}
         <div className="bg-white rounded-3xl p-8 sm:p-12 border border-slate-200/80 shadow-sm mb-10">
           <div className="flex items-center gap-2.5 mb-4">
-            <span className="w-9 h-9 rounded-xl bg-[#0a2240] text-cyan-300 font-serif font-bold text-sm flex items-center justify-center shadow-sm">
-              {treatment.id}
-            </span>
             <span className="text-xs font-semibold uppercase tracking-wider text-cyan-800 bg-cyan-50 px-3 py-1 rounded-full border border-cyan-100">
               In-Clinic Procedure
             </span>

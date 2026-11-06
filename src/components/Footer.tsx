@@ -106,7 +106,7 @@ export default function Footer() {
               <li>
                 <Link href="/brands/zo-skin-health" className="text-cyan-300 hover:text-white font-medium flex items-center gap-1.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
-                  ZO® Skin Health (Main)
+                  ZO® Skin Health
                 </Link>
               </li>
               <li>
@@ -151,27 +151,27 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/treatments/dermal-fillers" className="text-slate-400 hover:text-white transition">
-                  01 — Dermal Fillers
+                  Dermal Fillers
                 </Link>
               </li>
               <li>
                 <Link href="/treatments/fine-lines-wrinkles" className="text-slate-400 hover:text-white transition">
-                  02 — Fine Lines & Wrinkles
+                  Fine Lines & Wrinkles
                 </Link>
               </li>
               <li>
                 <Link href="/treatments/profhilo" className="text-slate-400 hover:text-white transition">
-                  03 — Profhilo®
+                  Profhilo®
                 </Link>
               </li>
               <li>
                 <Link href="/treatments/zo-skin-health-facials" className="text-slate-400 hover:text-white transition">
-                  07 — ZO Skin Health Facials
+                  ZO Skin Health Facials
                 </Link>
               </li>
               <li>
                 <Link href="/treatments" className="text-slate-400 hover:text-white transition">
-                  All 9 In-Clinic Treatments
+                  All In-Clinic Treatments
                 </Link>
               </li>
               <li>
