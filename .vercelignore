@@ -1,0 +1,17 @@
+node_modules
+.next
+.git
+*.ps1
+analyze.js
+check_desc.js
+collect_needed_images.js
+extract_faq.js
+generate_content.js
+generate_data.js
+get_faqs.js
+get_treatments.js
+inspect_products.js
+needed_basenames.json
+needed_paths.json
+parse_xml.js
+verify_product_images.js

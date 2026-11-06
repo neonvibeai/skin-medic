@@ -1,0 +1,460 @@
+[
+  {
+    "id": "01",
+    "slug": "dermal-fillers",
+    "title": "Dermal Fillers",
+    "subtitle": "Restore volume. Enhance your natural features.",
+    "description": "Dermal fillers can restore lost volume, enhance facial contours and soften the appearance of selected lines. Your treatment is planned around your facial anatomy, concerns and desired outcome.\n\nA consultation allows us to discuss suitable options, the amount of product required and what you can realistically expect.",
+    "pricingSectionTitle": "Treatments & Prices",
+    "pricingTable": [
+      {
+        "name": "Lip augmentation",
+        "amount": "0.5 ml",
+        "price": "£175"
+      },
+      {
+        "name": "Lip augmentation",
+        "amount": "1 ml",
+        "price": "£290"
+      },
+      {
+        "name": "Cheek augmentation",
+        "amount": "Assessed at consultation",
+        "price": "From £290"
+      },
+      {
+        "name": "Nose-to-mouth lines",
+        "amount": "1 ml",
+        "price": "£290"
+      },
+      {
+        "name": "Smoker’s lines / lip lines",
+        "amount": "1 ml",
+        "price": "£290"
+      },
+      {
+        "name": "Marionette lines",
+        "amount": "Assessed at consultation",
+        "price": "From £290"
+      },
+      {
+        "name": "Jawline",
+        "amount": "Assessed at consultation",
+        "price": "From £290"
+      },
+      {
+        "name": "Chin",
+        "amount": "Assessed at consultation",
+        "price": "From £290"
+      },
+      {
+        "name": "Tear troughs",
+        "amount": "Assessed at consultation",
+        "price": "£320"
+      },
+      {
+        "name": "Temples",
+        "amount": "Assessed at consultation",
+        "price": "£320"
+      },
+      {
+        "name": "Non-surgical rhinoplasty",
+        "amount": "Assessed at consultation",
+        "price": "£350"
+      },
+      {
+        "name": "Hand rejuvenation",
+        "amount": "Both hands",
+        "price": "£400"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which treatment is right for me?",
+        "a": "This depends on your facial structure, medical history and goals. Your practitioner will assess the area and explain whether filler is appropriate or whether another approach would be more suitable."
+      },
+      {
+        "q": "When will I see the result?",
+        "a": "Some change may be visible immediately, although swelling can initially affect the appearance. Your practitioner will explain when to assess the settled result."
+      },
+      {
+        "q": "How long do results last?",
+        "a": "Longevity varies with the product, treatment area and individual response. Product-specific expectations will be discussed during consultation."
+      },
+      {
+        "q": "Is there any downtime?",
+        "a": "Swelling, bruising, redness and tenderness can occur. Allow time for recovery before an important event."
+      },
+      {
+        "q": "What are the risks?",
+        "a": "Possible complications include infection, lumps, asymmetry and allergic reactions. Rarely, filler can block a blood vessel, causing tissue damage or visual complications. Your practitioner will explain the risks, aftercare and symptoms that require urgent attention."
+      }
+    ],
+    "ctaTitle": "Discuss Your Treatment",
+    "ctaDescription": "Understand your options and receive an individual treatment plan before deciding.",
+    "ctaButton": "Book a consultation"
+  },
+  {
+    "id": "02",
+    "slug": "fine-lines-wrinkles",
+    "title": "Fine Lines & Wrinkles",
+    "subtitle": "Explore a personalised approach",
+    "description": "Facial lines, jaw concerns and changes around the neck require an individual assessment. A consultation gives you the opportunity to discuss what you would like to address and understand suitable treatment options.\n\nRecommendations depend on your anatomy, medical history and expectations.",
+    "pricingSectionTitle": "Treatment Guide",
+    "pricingNote": "Suitability, the proposed treatment and final cost will be confirmed during consultation.",
+    "pricingTable": [
+      {
+        "name": "Face — 1 area",
+        "price": "£180"
+      },
+      {
+        "name": "Face — 2 areas",
+        "price": "£220"
+      },
+      {
+        "name": "Face — 3 areas",
+        "price": "£260"
+      },
+      {
+        "name": "Jaw slimming / teeth grinding",
+        "price": "£220"
+      },
+      {
+        "name": "Nefertiti neck lift",
+        "price": "£300"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What counts as one treatment area?",
+        "a": "Your practitioner will explain how treatment areas are defined and which areas are relevant to your concerns."
+      },
+      {
+        "q": "How many areas should I choose?",
+        "a": "You do not need to decide before your consultation. Recommendations will be based on your assessment and the outcome you are seeking."
+      },
+      {
+        "q": "Can I discuss teeth grinding?",
+        "a": "Yes. Teeth grinding may require dental or medical assessment. Your practitioner will discuss whether the clinic’s treatment is appropriate and whether further assessment is needed."
+      },
+      {
+        "q": "When will I see a change, and how long will it last?",
+        "a": "This depends on the treatment selected. Expected onset, duration and any review arrangements will be explained before you proceed."
+      },
+      {
+        "q": "Are there any side effects?",
+        "a": "Risks and recovery depend on the treatment and area involved. These will be discussed alongside your medical history during consultation."
+      }
+    ],
+    "ctaTitle": "Start with a Consultation",
+    "ctaDescription": "Discuss your concerns and make an informed decision about your next step.",
+    "ctaButton": "Book a consultation"
+  },
+  {
+    "id": "03",
+    "slug": "profhilo",
+    "title": "Profhilo®",
+    "subtitle": "An injectable approach to skin quality",
+    "description": "Profhilo is a hyaluronic acid-based injectable treatment indicated for tissue remodelling and improving skin laxity on the face and neck.\n\nIt focuses on skin quality rather than the targeted volume and contouring associated with traditional dermal fillers.",
+    "pricingSectionTitle": "Treatment & Price",
+    "priceHighlight": "£250 per treatment",
+    "pricingDetails": "The initial course consists of two treatments, giving a total of £500.\n\nThe manufacturer recommends an interval of approximately 30 days between initial sessions. Your treatment plan will be tailored to your skin.",
+    "faqs": [
+      {
+        "q": "Who may benefit from Profhilo?",
+        "a": "It may be an option for people concerned about skin laxity and changes in skin quality. Suitability is assessed individually."
+      },
+      {
+        "q": "Is Profhilo the same as dermal filler?",
+        "a": "No. Although both may contain hyaluronic acid, they have different purposes. Profhilo is intended for skin remodelling, while dermal fillers are commonly used for targeted volume and definition."
+      },
+      {
+        "q": "Will I need maintenance?",
+        "a": "Maintenance may be recommended according to your skin condition and response. Your practitioner will discuss an appropriate review plan."
+      },
+      {
+        "q": "What should I expect after treatment?",
+        "a": "As with injectable treatments, temporary injection-site reactions may occur. Your practitioner will explain potential side effects, recovery and aftercare."
+      },
+      {
+        "q": "Can it be combined with other treatments?",
+        "a": "A combined plan may be appropriate, but treatment choice and timing require an individual assessment."
+      }
+    ],
+    "ctaTitle": "Find Out Whether Profhilo Suits Your Skin",
+    "ctaButton": "Book a consultation"
+  },
+  {
+    "id": "04",
+    "slug": "harmonyca",
+    "title": "HArmonyCa™",
+    "subtitle": "Facial support with collagen stimulation",
+    "description": "HArmonyCa is a dual-action injectable combining hyaluronic acid and calcium hydroxyapatite.\n\nThe hyaluronic acid component provides support and volume, while calcium hydroxyapatite stimulates collagen production. Treatment is planned around your facial structure and suitability.",
+    "pricingSectionTitle": "Treatment & Price",
+    "priceHighlight": "£350 per 1.25 ml syringe",
+    "pricingDetails": "The number of syringes and full treatment cost will be confirmed during consultation.",
+    "faqs": [
+      {
+        "q": "How does HArmonyCa differ from a traditional filler?",
+        "a": "It combines hyaluronic acid with calcium hydroxyapatite, bringing structural support and collagen stimulation together in one product."
+      },
+      {
+        "q": "Which areas can be treated?",
+        "a": "Your practitioner will identify suitable areas according to your anatomy and the product’s instructions for use."
+      },
+      {
+        "q": "Are results immediate?",
+        "a": "The hyaluronic acid component can provide an initial effect, while collagen-related changes develop progressively. Swelling may affect the early appearance."
+      },
+      {
+        "q": "How much product will I need?",
+        "a": "The amount varies according to the treatment area and individual requirements. A full plan and cost will be discussed before treatment."
+      },
+      {
+        "q": "What about recovery and risks?",
+        "a": "Injection-site reactions and other complications are possible. Your practitioner will explain product-specific risks, recovery and aftercare before you decide."
+      }
+    ],
+    "ctaTitle": "Explore Your Options",
+    "ctaButton": "Book a HArmonyCa consultation"
+  },
+  {
+    "id": "05",
+    "slug": "sculptra",
+    "title": "Sculptra®",
+    "subtitle": "Gradual improvement through collagen stimulation",
+    "description": "Sculptra is an injectable treatment containing poly-L-lactic acid. It stimulates the skin’s own collagen production, helping improve facial firmness and fullness and soften the appearance of wrinkles and folds.\n\nChanges develop gradually over a course of treatment.",
+    "pricingSectionTitle": "Treatment & Price",
+    "priceHighlight": "£300 per vial",
+    "pricingDetails": "The clinic’s treatment guide recommends 2–3 sessions in most cases. The number of vials required per session and the total cost will be confirmed after assessment.",
+    "faqs": [
+      {
+        "q": "Is Sculptra a traditional filler?",
+        "a": "Sculptra works primarily by stimulating collagen production. Its gradual approach differs from treatments focused on an immediate volume effect."
+      },
+      {
+        "q": "When will I see results?",
+        "a": "Improvements develop progressively over the following months. Your practitioner will explain how and when to assess your response."
+      },
+      {
+        "q": "How long can results last?",
+        "a": "The manufacturer reports that results can last more than two years. Individual results and maintenance needs vary."
+      },
+      {
+        "q": "Does £300 cover a full session?",
+        "a": "The price is per vial. Some appointments may require more than one vial, so your practitioner will confirm the full proposed cost before you proceed."
+      },
+      {
+        "q": "What aftercare will I need?",
+        "a": "You will receive treatment-specific instructions, including whether massage is required and how to monitor your recovery."
+      }
+    ],
+    "ctaTitle": "Plan Your Treatment",
+    "ctaButton": "Book a Sculptra consultation"
+  },
+  {
+    "id": "06",
+    "slug": "obagi-facials",
+    "title": "Obagi Facials",
+    "subtitle": "Professional care for your skin concerns",
+    "description": "Explore our Obagi facial treatments, with options focused on cleansing, hydration, brightness and blemish-prone skin.\n\nYour practitioner will help you choose according to your skin condition, current routine and goals.",
+    "items": [
+      {
+        "name": "Obagi Signature Facial",
+        "description": "A facial designed to cleanse, exfoliate and hydrate using Obagi skincare. An option for skin that feels dull or in need of a refresh.",
+        "price": "£65",
+        "duration": "45 minutes"
+      },
+      {
+        "name": "Obagi Blue Peel Radiance®",
+        "description": "A superficial, salicylic acid-based chemical peel that exfoliates and helps improve the overall complexion. It can help address rough texture, blemishes, fine lines and visible signs of sun damage, revealing smoother, brighter-looking skin.",
+        "price": "£90",
+        "duration": "45 minutes"
+      },
+      {
+        "name": "Vitamin C Facial",
+        "description": "A radiance-focused facial using vitamin C skincare to address the appearance of dullness and uneven skin tone.",
+        "price": "£65",
+        "duration": "45 minutes"
+      },
+      {
+        "name": "CLENZIderm Acne Facial",
+        "description": "A targeted facial for oily and blemish-prone skin, focused on cleansing, excess oil and the appearance of congestion.",
+        "price": "£65",
+        "duration": "45 minutes"
+      },
+      {
+        "name": "Microneedling Add-On",
+        "description": "Microneedling can be added to a suitable facial following an individual assessment. Compatibility depends on the products and procedures used during your appointment.",
+        "price": "Additional £50",
+        "duration": "15 minutes"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which facial should I book?",
+        "a": "If you are unsure, ask for advice before booking. Your practitioner will consider your concerns, skin sensitivity and current products when recommending an option."
+      },
+      {
+        "q": "Is Blue Peel Radiance suitable for every skin type?",
+        "a": "The manufacturer describes it as suitable for a wide range of skin types. An assessment is still needed to check whether it is appropriate for your skin."
+      },
+      {
+        "q": "How many peels will I need?",
+        "a": "A single peel may refresh the complexion. A course may be recommended for more persistent concerns, with the number and spacing of appointments tailored to your response."
+      },
+      {
+        "q": "Will my skin peel afterwards?",
+        "a": "Some flaking, redness or sensitivity may occur after a chemical peel. Your practitioner will explain expected recovery and aftercare."
+      },
+      {
+        "q": "How should I prepare?",
+        "a": "Tell your practitioner about your skincare, medicines, allergies and recent procedures. Ask for personalised instructions before changing or stopping any products."
+      },
+      {
+        "q": "Can I book before a special event?",
+        "a": "Discuss the event date before booking, particularly for a first peel. Allow time for any skin reaction to settle."
+      }
+    ],
+    "ctaTitle": "Choose Your Obagi Facial",
+    "ctaButton": "Book an appointment"
+  },
+  {
+    "id": "07",
+    "slug": "zo-skin-health-facials",
+    "title": "ZO Skin Health Facials",
+    "subtitle": "Targeted care for a refreshed complexion",
+    "description": "Our ZO Skin Health facials focus on individual skin concerns and complement your home skincare routine.\n\nChoose from treatments focused on visible signs of ageing or a brighter, refreshed appearance.",
+    "items": [
+      {
+        "name": "ZO Luxury Anti-Ageing Facial",
+        "description": "A facial focused on the appearance of fine lines, dullness and uneven skin texture, using ZO Skin Health skincare. Your practitioner will discuss your concerns and assess the most appropriate approach for your skin.",
+        "price": "£65",
+        "duration": "45 minutes"
+      },
+      {
+        "name": "ZO Red Carpet Peel Facial",
+        "description": "A radiance-focused facial combining exfoliation and hydration to refresh the appearance of the complexion. If you are planning treatment before an event, speak to your practitioner about suitable timing.",
+        "price": "£80",
+        "duration": "45 minutes"
+      },
+      {
+        "name": "Microneedling Add-On",
+        "description": "Add microneedling to a suitable facial following assessment. Your practitioner will confirm whether the combination is appropriate for your skin and the treatment products used.",
+        "price": "Additional £50",
+        "duration": "15 minutes"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which ZO facial is right for me?",
+        "a": "This depends on your skin condition, concerns and current routine. Your practitioner can help you choose before treatment."
+      },
+      {
+        "q": "What happens during the facial?",
+        "a": "The products and treatment steps will be explained before your appointment begins. Tell your practitioner about any sensitivity or recent skin procedures."
+      },
+      {
+        "q": "Will there be any downtime?",
+        "a": "Your response depends on the products and treatment intensity. Redness, sensitivity or peeling may occur, so your practitioner will explain what to expect."
+      },
+      {
+        "q": "Can I have a Red Carpet facial immediately before an event?",
+        "a": "Discuss timing first. The name does not mean that every skin will be ready for an event immediately after treatment."
+      },
+      {
+        "q": "Will I need a course?",
+        "a": "Some people book occasional facials, while others may benefit from a structured plan. Recommendations will depend on your skin and goals."
+      }
+    ],
+    "ctaTitle": "Find Your ZO Facial",
+    "ctaButton": "Book an appointment"
+  },
+  {
+    "id": "08",
+    "slug": "microneedling-facial",
+    "title": "Microneedling Facial",
+    "subtitle": "Improve the appearance of skin texture",
+    "description": "Microneedling uses fine needles to create controlled punctures in the skin, stimulating its natural repair response and collagen production.\n\nIt may help improve the appearance of acne scars, fine lines and uneven texture. Treatment intensity and the recommended course are tailored to your skin.",
+    "pricingSectionTitle": "Treatment & Price",
+    "priceHighlight": "£80 · 45 minutes",
+    "faqs": [
+      {
+        "q": "What can microneedling help with?",
+        "a": "It may be suitable for selected scars, fine lines and uneven skin texture. Your practitioner will assess whether it is appropriate for your concern."
+      },
+      {
+        "q": "How many sessions will I need?",
+        "a": "A course is often considered for established scarring or texture concerns. The number of sessions and intervals depend on your skin, the device and treatment intensity."
+      },
+      {
+        "q": "When will I see a difference?",
+        "a": "Changes develop as the skin repairs and remodels over the following weeks and months. Results are gradual and vary between individuals."
+      },
+      {
+        "q": "What should I expect afterwards?",
+        "a": "Temporary redness or darkening, swelling, dryness and discomfort may occur. Recovery varies according to treatment depth and your skin’s response."
+      },
+      {
+        "q": "Is it suitable for everyone?",
+        "a": "No. Active skin infections, inflamed breakouts, a history of keloid scarring and certain medicines or conditions may affect suitability."
+      },
+      {
+        "q": "What aftercare is required?",
+        "a": "Your practitioner will explain sun protection, cleansing and when to resume makeup and active skincare. Follow the instructions provided for your treatment."
+      }
+    ],
+    "ctaTitle": "Discuss Your Skin Goals",
+    "ctaButton": "Book a microneedling consultation"
+  },
+  {
+    "id": "09",
+    "slug": "vitamin-injections",
+    "title": "Vitamin Injections",
+    "subtitle": "Start with an individual assessment",
+    "description": "Consultations are available for vitamin injections at Skin Medic. Your medical history, symptoms and reasons for seeking treatment will be reviewed before a recommendation is made.\n\nTesting or further medical assessment may be needed to establish whether an injection is appropriate.",
+    "pricingSectionTitle": "Available Options & Prices",
+    "pricingTable": [
+      {
+        "name": "Vitamin B12",
+        "price": "£70"
+      },
+      {
+        "name": "Vitamin C",
+        "price": "£70"
+      },
+      {
+        "name": "Biotin",
+        "price": "£70"
+      },
+      {
+        "name": "Vitamin D",
+        "price": "£70"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Which injection do I need?",
+        "a": "The choice should be based on an assessment of your individual needs. Symptoms such as tiredness can have several causes and do not, on their own, establish a vitamin deficiency."
+      },
+      {
+        "q": "Will I need a blood test?",
+        "a": "This depends on the vitamin, your medical history and the reason for treatment. Your practitioner will explain whether testing or a referral is appropriate."
+      },
+      {
+        "q": "Are vitamin injections suitable for everyone?",
+        "a": "No. Suitability depends on your health, medicines, allergies and the preparation being considered."
+      },
+      {
+        "q": "How many injections will I need?",
+        "a": "The dose and schedule depend on the clinical indication and product used. These will be explained before treatment."
+      },
+      {
+        "q": "Are there any risks?",
+        "a": "Injection-site reactions and product-specific side effects are possible. Your practitioner will discuss the relevant benefits, risks and alternatives."
+      }
+    ],
+    "ctaTitle": "Ask About Suitability",
+    "ctaButton": "Contact the clinic for an assessment"
+  }
+]

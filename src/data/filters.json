@@ -1,0 +1,58 @@
+{
+  "brands": [
+    "ZO Skin Health",
+    "Obagi Medical"
+  ],
+  "categories": [
+    "Acne",
+    "Acne & Blemishes",
+    "Ageing Skin",
+    "Anti-Ageing",
+    "Body",
+    "Brightening",
+    "CLENZIderm M.D.",
+    "Cleanse",
+    "Dry & Dehydrated Skin",
+    "Dull Skin & Brightening",
+    "ELASTIderm Collection",
+    "Exfoliate",
+    "Eye Care",
+    "Hydrators",
+    "Nu-Cil",
+    "Nu-Derm Fx System",
+    "Nu-Derm Rx System",
+    "Obagi",
+    "Obagi-C Fx System",
+    "Obagi-C Rx System",
+    "Obagi® Rebalance",
+    "Oily Skin",
+    "Our Most Loved Products",
+    "Pigmentation & Dark Spots",
+    "Professional-C Portfolio",
+    "Redness",
+    "Retinoids",
+    "Rosacea & Redness",
+    "SUZANObagiMD",
+    "Sensitive Skin",
+    "Sun Protection",
+    "Tone",
+    "ZO Skin Health"
+  ],
+  "concerns": [
+    "Acne",
+    "Acne & Blemishes",
+    "Ageing Skin",
+    "Anti-Ageing",
+    "Dry & Dehydrated Skin",
+    "Dull Skin & Brightening",
+    "Oily Skin",
+    "Pigmentation & Dark Spots",
+    "Rosacea & Redness",
+    "Sensitive Skin",
+    "Sun Protection"
+  ],
+  "priceRange": {
+    "min": 25,
+    "max": 600
+  }
+}
