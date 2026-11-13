@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import React from 'react';
+import siteContent from '@/data/siteContent.json';
 
 /**
  * Responsive showcase banner:
@@ -15,7 +16,7 @@ export default function ParallaxBanner() {
       {/* Mobile version: Standard static image (parallax disabled) */}
       <div className="block md:hidden relative w-full rounded-[20px] overflow-hidden shadow-xl border border-slate-200/80 mb-10 select-none bg-[#cbb09d]">
         <Image
-          src="/images/08_PARALLAX.jpg"
+          src={siteContent.images.parallaxBannerMobile}
           alt="Diverse women with radiant, healthy skin"
           className="w-full h-auto block object-cover"
   width={1024}
@@ -33,7 +34,7 @@ export default function ParallaxBanner() {
         className="hidden md:block relative w-full h-[500px] rounded-[24px] overflow-hidden shadow-xl border border-slate-200/80 mb-14 select-none"
         style={{
           backgroundColor: '#cbb09d',
-          backgroundImage: 'url(/images/08_PARALLAX_SHIFTED.jpg)',
+          backgroundImage: `url(${siteContent.images.parallaxBannerDesktop})`,
           backgroundAttachment: 'fixed',
           backgroundPosition: 'center 25px',
           backgroundSize: 'cover',

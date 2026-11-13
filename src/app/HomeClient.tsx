@@ -11,6 +11,7 @@ import Carousel3D from '@/components/Carousel3D';
 import ParallaxBanner from '@/components/ParallaxBanner';
 import productsData from '@/data/products.json';
 import treatmentsData from '@/data/treatments.json';
+import siteContent from '@/data/siteContent.json';
 import { Product, Treatment } from '@/types';
 import {
   Sparkles,
@@ -62,19 +63,19 @@ export default function HomePage() {
             <div className="lg:col-span-6 relative z-20 min-w-0 space-y-6 text-center lg:text-left">
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-[#0a2240] text-xs font-semibold uppercase tracking-wider">
                 <Sparkles className="w-3.5 h-3.5 text-cyan-600" />
-                <span>EXPERT CARE. YOUR SKIN FIRST.</span>
+                <span>{siteContent.hero.badge}</span>
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold tracking-tight text-slate-900 leading-[1.15]">
-                Advanced Skincare <br />
+                {siteContent.hero.headlineLine1} <br />
                 <span className="text-[#0a2240]">
-                  Backed by Science
+                  {siteContent.hero.headlineLine2}
                 </span>
               </h1>
 
               {/* Exact Copy from Prompt Point 3 */}
               <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto lg:mx-0 font-light text-left">
-                Book a complimentary video consultation with our skin specialists and discover a personalised skincare routine with ZO<sup className="text-[0.6em] font-normal">®</sup>{'\u00A0'}Skin{'\u00A0'}Health and Obagi<sup className="text-[0.6em] font-normal">®</sup> Medical. Explore science-led skincare, with professional guidance to help you understand your skin and choose a routine suited to your needs.
+                {siteContent.hero.description}
               </p>
 
               {/* CTAs */}
@@ -84,14 +85,14 @@ export default function HomePage() {
                   className="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-[#0a2240] hover:bg-[#123661] text-white font-bold text-sm shadow-xl shadow-blue-950/15 hover:scale-[1.02] transition-all flex items-center justify-center gap-2"
                 >
                   <Calendar className="w-4 h-4 text-cyan-300" />
-                  Free skincare consultation
+                  {siteContent.hero.primaryCta}
                 </button>
 
                 <a
                   href="#treatments"
                   className="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-slate-50 hover:bg-slate-100 text-slate-800 font-semibold text-sm border border-slate-300 hover:border-[#0a2240] transition flex items-center justify-center gap-2"
                 >
-                  Explore Our Treatments
+                  {siteContent.hero.secondaryCta}
                   <ArrowRight className="w-4 h-4 text-[#0a2240]" />
                 </a>
               </div>
@@ -105,16 +106,16 @@ export default function HomePage() {
                   className="group block"
                   aria-label="Read our Google reviews (opens in a new tab)"
                 >
-                  <div className="text-lg sm:text-2xl font-bold font-serif text-slate-900">4.9 / 5.0</div>
-                  <div className="text-[10px] sm:text-[11px] text-slate-500 font-medium leading-tight mt-0.5 underline decoration-slate-300 underline-offset-2 group-hover:text-[#0a2240] group-hover:decoration-[#0a2240]">Google Verified Rating</div>
+                  <div className="text-lg sm:text-2xl font-bold font-serif text-slate-900">{siteContent.hero.trust1Value}</div>
+                  <div className="text-[10px] sm:text-[11px] text-slate-500 font-medium leading-tight mt-0.5 underline decoration-slate-300 underline-offset-2 group-hover:text-[#0a2240] group-hover:decoration-[#0a2240]">{siteContent.hero.trust1Label}</div>
                 </a>
                 <div>
-                  <div className="text-lg sm:text-2xl font-bold font-serif text-[#0a2240] leading-tight">Expert Guidance</div>
-                  <div className="text-[10px] sm:text-[11px] text-slate-500 font-medium leading-tight mt-0.5">Personalised Skincare Support</div>
+                  <div className="text-lg sm:text-2xl font-bold font-serif text-[#0a2240] leading-tight">{siteContent.hero.trust2Value}</div>
+                  <div className="text-[10px] sm:text-[11px] text-slate-500 font-medium leading-tight mt-0.5">{siteContent.hero.trust2Label}</div>
                 </div>
                 <div>
-                  <div className="text-lg sm:text-2xl font-bold font-serif text-slate-900">100%</div>
-                  <div className="text-[10px] sm:text-[11px] text-slate-500 font-medium leading-tight mt-0.5">Medical-Grade Formulas</div>
+                  <div className="text-lg sm:text-2xl font-bold font-serif text-slate-900">{siteContent.hero.trust3Value}</div>
+                  <div className="text-[10px] sm:text-[11px] text-slate-500 font-medium leading-tight mt-0.5">{siteContent.hero.trust3Label}</div>
                 </div>
               </div>
             </div>
@@ -132,7 +133,7 @@ export default function HomePage() {
         {/* Roslyn Bolton Genuine Photo as Background for the whole section */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/roslyn-bolton.jpg"
+            src={siteContent.images.founderPortrait}
             alt="Roslyn Bolton - Skin Medic Clinical Director"
             className="w-full h-full object-cover object-[center_15%] sm:object-[right_20%] opacity-35 sm:opacity-40 filter brightness-90"
   width={682}
@@ -151,15 +152,15 @@ export default function HomePage() {
             <div className="lg:col-span-7 space-y-5 text-center lg:text-left">
               <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 border border-white/20 text-cyan-300 text-xs font-semibold uppercase tracking-wider backdrop-blur-sm">
                 <Sparkles className="w-3.5 h-3.5" />
-                Welcome to a New Standard in Skincare
+                {siteContent.welcome.badge}
               </span>
 
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-normal text-white leading-snug drop-shadow-sm">
-                Where clinical efficacy meets personalised skin care.
+                {siteContent.welcome.heading}
               </h2>
 
               <p className="text-sm sm:text-base text-slate-200 leading-relaxed font-light text-left">
-                Skin Medic Skin Care Clinic is your dedicated partner in achieving optimal skin health, offering a curated range of medical-grade skincare solutions that bridge the gap between the dermatologist&apos;s office and your daily routine. Our clinically formulated products are powered by pharmaceutical-grade concentrations of proven active ingredients, meticulously designed to deliver visible, transformative results for concerns like ageing, acne, hyperpigmentation, and sensitivity. More than just products, we provide a professional, guided approach to skincare, empowering you with the effective tools and expert knowledge necessary to reveal a healthier, more radiant, and confident complexion.
+                {siteContent.welcome.body}
               </p>
 
               <div className="pt-3 border-t border-white/15">
@@ -179,7 +180,7 @@ export default function HomePage() {
                   {/* Roslyn Bolton Genuine Photo */}
                   <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl overflow-hidden shrink-0 border-2 border-cyan-400/60 shadow-xl ring-2 ring-white/10">
                     <Image
-                      src="/images/roslyn-bolton.jpg"
+                      src={siteContent.images.founderPortrait}
                       alt="Roslyn Bolton - Clinical Director"
                       className="w-full h-full object-cover"
   width={682}
@@ -203,7 +204,7 @@ export default function HomePage() {
                     </div>
 
                     <p className="text-xs text-slate-200 font-light leading-relaxed pt-1">
-                      With years of experience in skin care, Roslyn offers a professional, personalised approach, taking time to understand your skin concerns and guide you through your skincare routine.
+                      {siteContent.welcome.directorBio}
                     </p>
 
                     <div className="pt-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
@@ -608,7 +609,7 @@ export default function HomePage() {
         {/* Background Image: Full-brightness Video Consultation Photo */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/video-consultation.jpg"
+            src={siteContent.images.videoConsultationBg}
             alt="Free video consultation with a Skin Medic skin specialist"
             className="w-full h-full object-cover object-center opacity-100"
   width={1024}
@@ -761,7 +762,7 @@ export default function HomePage() {
               <div className="order-2 md:order-1 shrink-0">
                 <div className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full overflow-hidden shadow-xl ring-4 ring-white border-2 border-blue-200">
                   <Image
-                    src="/images/roslyn-bolton.jpg"
+                    src={siteContent.images.founderPortrait}
                     alt="Roslyn Bolton"
                     className="w-full h-full object-cover object-top"
   width={682}
@@ -774,7 +775,7 @@ export default function HomePage() {
               {/* Quote Text & Clean Non-Italic Signature */}
               <div className="order-1 md:order-2 space-y-3">
                 <blockquote className="font-serif italic text-slate-800 text-[20px] sm:text-[22px] md:text-[26px] lg:text-[28px] leading-relaxed">
-                  &ldquo;These products literally fly off the shelves! My patients absolutely love them.&rdquo;
+                  &ldquo;{siteContent.welcome.mostLovedQuote}&rdquo;
                 </blockquote>
                 <div>
                   <div className="text-sm sm:text-base font-semibold text-slate-900 tracking-wide not-italic">

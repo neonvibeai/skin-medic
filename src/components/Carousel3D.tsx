@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import React, { useState, useEffect, useRef, useSyncExternalStore } from 'react';
 import { ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
+import siteContent from '@/data/siteContent.json';
 
 function subscribeReducedMotion(callback: () => void) {
   const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -25,26 +26,7 @@ export interface Slide {
   tagline: string;
 }
 
-const DEFAULT_SLIDES: Slide[] = [
-  {
-    src: '/images/hero-1.jpg',
-    alt: 'Confident client observing radiant skin in the mirror',
-    caption: 'Radiant, Healthy Complexion',
-    tagline: 'Physician-grade protocols tailored to your anatomy'
-  },
-  {
-    src: '/images/hero-2.jpg',
-    alt: 'Client applying nourishing medical-grade treatment cream',
-    caption: 'Targeted Cellular Renewal',
-    tagline: 'Evidence-backed ZO\u00A0Skin\u00A0Health & Obagi\u00A0Medical'
-  },
-  {
-    src: '/images/hero-3.jpg',
-    alt: 'Mature woman with smooth, radiant complexion applying eye cream',
-    caption: 'Long-Term Skin Vitality',
-    tagline: 'Continuous support from Registered Nurse Roslyn Bolton'
-  }
-];
+const DEFAULT_SLIDES: Slide[] = siteContent.heroSlides;
 
 interface Carousel3DProps {
   slides?: Slide[];

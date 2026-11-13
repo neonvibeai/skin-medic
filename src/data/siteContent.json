@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "badge": "EXPERT CARE. YOUR SKIN FIRST.",
+    "headlineLine1": "Advanced Skincare",
+    "headlineLine2": "Backed by Science",
+    "description": "Book a complimentary video consultation with our skin specialists and discover a personalised skincare routine with ZO® Skin Health and Obagi® Medical. Explore science-led skincare, with professional guidance to help you understand your skin and choose a routine suited to your needs.",
+    "primaryCta": "Free skincare consultation",
+    "secondaryCta": "Explore Our Treatments",
+    "trust1Value": "4.9 / 5.0",
+    "trust1Label": "Google Verified Rating",
+    "trust2Value": "Expert Guidance",
+    "trust2Label": "Personalised Skincare Support",
+    "trust3Value": "100%",
+    "trust3Label": "Medical-Grade Formulas"
+  },
+  "welcome": {
+    "badge": "Welcome to a New Standard in Skincare",
+    "heading": "Where clinical efficacy meets personalised skin care.",
+    "body": "Skin Medic Skin Care Clinic is your dedicated partner in achieving optimal skin health, offering a curated range of medical-grade skincare solutions that bridge the gap between the dermatologist's office and your daily routine. Our clinically formulated products are powered by pharmaceutical-grade concentrations of proven active ingredients, meticulously designed to deliver visible, transformative results for concerns like ageing, acne, hyperpigmentation, and sensitivity. More than just products, we provide a professional, guided approach to skincare, empowering you with the effective tools and expert knowledge necessary to reveal a healthier, more radiant, and confident complexion.",
+    "directorBio": "With years of experience in skin care, Roslyn offers a professional, personalised approach, taking time to understand your skin concerns and guide you through your skincare routine.",
+    "mostLovedQuote": "These products literally fly off the shelves! My patients absolutely love them."
+  },
+  "images": {
+    "founderPortrait": "/images/roslyn-bolton.jpg",
+    "parallaxBannerDesktop": "/images/08_PARALLAX_SHIFTED.jpg",
+    "parallaxBannerMobile": "/images/08_PARALLAX.jpg",
+    "videoConsultationBg": "/images/video-consultation.jpg"
+  },
+  "heroSlides": [
+    {
+      "src": "/images/hero-1.jpg",
+      "alt": "Confident client observing radiant skin in the mirror",
+      "caption": "Radiant, Healthy Complexion",
+      "tagline": "Physician-grade protocols tailored to your anatomy"
+    },
+    {
+      "src": "/images/hero-2.jpg",
+      "alt": "Client applying nourishing medical-grade treatment cream",
+      "caption": "Targeted Cellular Renewal",
+      "tagline": "Evidence-backed ZO\u00A0Skin\u00A0Health & Obagi\u00A0Medical"
+    },
+    {
+      "src": "/images/hero-3.jpg",
+      "alt": "Mature woman with smooth, radiant complexion applying eye cream",
+      "caption": "Long-Term Skin Vitality",
+      "tagline": "Continuous support from Registered Nurse Roslyn Bolton"
+    }
+  ]
+}
