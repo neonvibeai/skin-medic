@@ -79,7 +79,7 @@ ${formData.notes ? `*Notes:* ${formData.notes}` : ''}`;
                 Consultation Request Confirmed!
               </h2>
               <p className="text-slate-600 text-sm max-w-lg mx-auto leading-relaxed">
-                Thank you, <strong className="text-slate-900">{formData.fullName}</strong>. Roslyn Bolton and our clinical team will review your answers and contact you via email/phone within 24 hours to finalize your video or clinic time slot.
+                Thank you, <strong className="text-slate-900">{formData.fullName}</strong>. Roslyn Bolton and our clinical team will review your answers and contact you via email/phone within 24 hours to finalise your video or clinic time slot.
               </p>
               <div className="pt-4 flex flex-col sm:flex-row justify-center gap-3">
                 <a

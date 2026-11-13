@@ -64,7 +64,7 @@ export default function HowItWorksPage() {
               </p>
               <div className="pt-2 text-xs text-slate-500 flex items-center gap-2">
                 <CheckCircle className="w-4 h-4 text-emerald-600" />
-                <span>Customized dosages, step-up protocols & sun protection</span>
+                <span>Customised dosages, step-up protocols & sun protection</span>
               </div>
             </div>
           </div>

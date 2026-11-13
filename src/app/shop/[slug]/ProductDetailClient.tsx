@@ -368,7 +368,7 @@ export default function ProductDetailClient({
                   <ul className="list-disc pl-5 space-y-1 text-xs text-slate-600">
                     <li>Contraindications and allergies are screened</li>
                     <li>Correct step-up protocols are provided to avoid unnecessary irritation</li>
-                    <li>The product synergizes with your existing skincare regime</li>
+                    <li>The product synergises with your existing skincare regime</li>
                   </ul>
                 </div>
               )}
