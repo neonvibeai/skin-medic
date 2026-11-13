@@ -248,7 +248,7 @@ export default function ZOSkinHealthBrandPage() {
               {[
                 { id: 'all', label: 'All ZO' },
                 { id: 'cleanse', label: 'Cleanse' },
-                { id: 'anti-ageing', label: 'Anti-Ageing' },
+                { id: 'ageing', label: 'Ageing Skin' },
                 { id: 'acne', label: 'Acne & Oil' },
                 { id: 'brightening', label: 'Brightening' },
                 { id: 'hydrators', label: 'Barrier / Hydrators' }

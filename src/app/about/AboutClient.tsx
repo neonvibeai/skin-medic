@@ -37,12 +37,6 @@ export default function AboutPage() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="mt-3">
-                <div className="font-serif font-bold text-base text-slate-900">Roslyn Bolton</div>
-                <div className="text-xs text-[#0a2240] font-semibold uppercase tracking-wider">
-                  Registered Nurse & Skin Specialist
-                </div>
-              </div>
             </div>
 
             {/* Content Details */}

@@ -3,6 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Product } from '@/types';
+import { splitProductName } from '@/lib/productName';
 import { useConsultation } from '@/context/ConsultationContext';
 import { Sparkles, Calendar, Eye, ShieldCheck } from 'lucide-react';
 
@@ -114,9 +115,16 @@ export default function ProductCard({ product, onQuickView }: ProductCardProps) 
           {/* Name */}
           <Link
             href={`/shop/${product.slug}`}
-            className="font-serif font-bold text-slate-900 text-base line-clamp-2 hover:text-[#0a2240] transition"
+            className="block hover:text-[#0a2240] transition"
           >
-            {product.name}
+            <span className="font-serif font-bold text-slate-900 text-base line-clamp-2 text-balance">
+              {splitProductName(product.name).title}
+            </span>
+            {splitProductName(product.name).size && (
+              <span className="block text-xs font-medium text-slate-500 mt-0.5">
+                {splitProductName(product.name).size}
+              </span>
+            )}
           </Link>
 
           {/* Description snippet */}

@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { Product } from '@/types';
+import { splitProductName } from '@/lib/productName';
 import { useConsultation } from '@/context/ConsultationContext';
 import { CLINIC_INFO } from '@/data/siteData';
 import ProductCard from '@/components/ProductCard';
@@ -149,8 +150,13 @@ export default function ProductDetailClient({
                   ))}
                 </div>
 
-                <h1 className="text-2xl sm:text-3xl font-serif font-bold text-slate-900 tracking-tight">
-                  {product.name}
+                <h1 className="text-2xl sm:text-3xl font-serif font-bold text-slate-900 tracking-tight text-balance">
+                  {splitProductName(product.name).title}
+                  {splitProductName(product.name).size && (
+                    <span className="block text-base font-sans font-medium text-slate-500 mt-1 tracking-normal">
+                      {splitProductName(product.name).size}
+                    </span>
+                  )}
                 </h1>
 
                 <div className="mt-4 flex items-baseline gap-4 pb-4 border-b border-slate-100">

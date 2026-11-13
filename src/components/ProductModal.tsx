@@ -3,6 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Product } from '@/types';
+import { splitProductName } from '@/lib/productName';
 import { useConsultation } from '@/context/ConsultationContext';
 import { X, Calendar, ShieldCheck, ExternalLink } from 'lucide-react';
 
@@ -92,8 +93,13 @@ export default function ProductModal({ product, onClose }: ProductModalProps) {
               {product.categories.slice(0, 3).join(' • ')}
             </div>
 
-            <h3 className="font-serif font-bold text-xl sm:text-2xl text-slate-900">
-              {product.name}
+            <h3 className="font-serif font-bold text-xl sm:text-2xl text-slate-900 text-balance">
+              {splitProductName(product.name).title}
+              {splitProductName(product.name).size && (
+                <span className="block text-sm font-sans font-medium text-slate-500 mt-1">
+                  {splitProductName(product.name).size}
+                </span>
+              )}
             </h3>
 
             <div className="flex items-center gap-3 mt-3 pb-3 border-b border-slate-100">

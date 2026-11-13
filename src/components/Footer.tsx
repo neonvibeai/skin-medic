@@ -22,7 +22,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#07172c] text-slate-300 pt-16 pb-8 border-t border-slate-800">
+    <footer className="bg-[#07172c] text-slate-300 pt-16 pb-24 sm:pb-8 border-t border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top Newsletter Card */}
         <div className="bg-gradient-to-r from-[#0d2a4f] to-[#123866] rounded-2xl p-6 sm:p-8 mb-16 shadow-xl border border-white/10 flex flex-col md:flex-row items-center justify-between gap-6">

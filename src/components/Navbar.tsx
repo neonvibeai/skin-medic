@@ -121,7 +121,7 @@ export default function Navbar() {
           </Link>
 
           {/* Search bar with Live Autocomplete Dropdown (Compact input width to give enlarged logo generous room) */}
-          <div ref={desktopSearchRef} className="hidden lg:block relative flex-1 min-w-[150px] xl:min-w-[180px] max-w-[220px] mx-1">
+          <div ref={desktopSearchRef} className="hidden min-[1440px]:block relative flex-1 min-w-[180px] max-w-[220px] mx-1">
             <form onSubmit={handleSearchSubmit} className="relative flex items-center">
               <input
                 type="text"
@@ -224,7 +224,7 @@ export default function Navbar() {
           </div>
 
           {/* Desktop Navigation Links — Compact Spacing (gap: 16px, padding: 6px 10px, font: 14px/15px, weight: 500) */}
-          <nav className="hidden md:flex items-center gap-[14px] xl:gap-[16px] shrink-0">
+          <nav className="hidden xl:flex items-center gap-[14px] xl:gap-[16px] shrink-0">
             <Link
               href="/"
               className={`text-[14px] xl:text-[15px] font-medium transition-colors px-[10px] py-[6px] rounded-lg whitespace-nowrap ${
@@ -357,7 +357,7 @@ export default function Navbar() {
           {/* Mobile hamburger button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 text-slate-800 hover:text-black focus:outline-none shrink-0"
+            className="xl:hidden p-2 text-slate-800 hover:text-black focus:outline-none shrink-0"
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}
@@ -367,7 +367,7 @@ export default function Navbar() {
 
       {/* Mobile drawer */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-4 animate-fade-in shadow-xl">
+        <div className="xl:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-4 animate-fade-in shadow-xl">
           {/* Mobile search with live list */}
           <div ref={mobileSearchRef} className="relative">
             <form onSubmit={handleSearchSubmit} className="relative">
