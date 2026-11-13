@@ -38,7 +38,7 @@ export default function PrivacyPage() {
         <section className="space-y-2">
           <h2 className="font-serif font-bold text-lg text-slate-900">3. How We Use Your Information</h2>
           <p>
-            Your information is used strictly to provide clinical skin assessments, dispense personalized skincare plans, arrange next-day courier deliveries within the UK, and follow up on your skin progress. We never sell or share your data with third-party advertisers.
+            Your information is used strictly to provide clinical skin assessments, dispense personalised skincare plans, arrange next-day courier deliveries within the UK, and follow up on your skin progress. We never sell or share your data with third-party advertisers.
           </p>
         </section>
 

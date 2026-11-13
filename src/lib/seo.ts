@@ -10,7 +10,20 @@ interface PageMetadataOptions {
 export function cleanMetaDescription(raw: string, maxLength = 155): string {
   const singleLine = raw.replace(/\s+/g, ' ').trim();
   if (singleLine.length <= maxLength) return singleLine;
-  return `${singleLine.slice(0, maxLength - 1).trimEnd()}…`;
+
+  const slice = singleLine.slice(0, maxLength);
+  const lastSentenceEnd = Math.max(
+    slice.lastIndexOf('. '),
+    slice.lastIndexOf('! '),
+    slice.lastIndexOf('? ')
+  );
+  if (lastSentenceEnd >= 70) {
+    return slice.slice(0, lastSentenceEnd + 1).trim();
+  }
+
+  const lastSpace = slice.lastIndexOf(' ');
+  const wordBoundary = lastSpace >= 60 ? slice.slice(0, lastSpace) : slice;
+  return wordBoundary.replace(/[,;:\-\u2013\u2014]+$/, '').trim();
 }
 
 export function buildPageMetadata({
@@ -20,7 +33,7 @@ export function buildPageMetadata({
 }: PageMetadataOptions): Metadata {
   const normalizedPath = path === '/' ? '' : path;
   const canonicalUrl = `${SITE_URL}${normalizedPath}`;
-  const cleanDescription = cleanMetaDescription(description, 160);
+  const cleanDescription = cleanMetaDescription(description, 155);
   const ogTitle = typeof title === 'string' ? `${title} | Skin Medic Skin Care` : title.absolute;
 
   return {

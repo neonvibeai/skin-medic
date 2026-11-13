@@ -309,7 +309,7 @@ export default function ProductDetailClient({
                   </h3>
                   <p className="whitespace-pre-line">{product.howToUse}</p>
                   <p className="text-xs text-slate-500 italic">
-                    * Specific protocol dosage and frequency will be personalized during your video consultation with Roslyn Bolton.
+                    * Specific protocol dosage and frequency will be personalised during your video consultation with Roslyn Bolton.
                   </p>
                 </div>
               )}

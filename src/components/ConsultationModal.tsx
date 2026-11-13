@@ -76,7 +76,7 @@ ${formData.notes ? `*Notes:* ${formData.notes}` : ''}`;
             Book Your Expert Skin Consultation
           </h2>
           <p className="text-sm text-slate-300 mt-1">
-            Personalized medical-grade assessment led by Roslyn Bolton (16+ yrs clinical experience).
+            Personalised medical-grade assessment led by Roslyn Bolton (16+ yrs clinical experience).
           </p>
 
           {selectedProduct && (

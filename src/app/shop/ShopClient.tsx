@@ -1,7 +1,6 @@
 'use client';
 
-import React, { useState, useMemo, Suspense } from 'react';
-import { useSearchParams } from 'next/navigation';
+import React, { useState, useMemo, useEffect } from 'react';
 import productsData from '@/data/products.json';
 import filtersData from '@/data/filters.json';
 import ProductCard from '@/components/ProductCard';
@@ -10,22 +9,32 @@ import { useConsultation } from '@/context/ConsultationContext';
 import { Product } from '@/types';
 import { Search, Filter, RotateCcw, Calendar, ShieldCheck, Sparkles, X } from 'lucide-react';
 
-function ShopContent() {
-  const searchParams = useSearchParams();
+export default function ShopClient() {
   const { openConsultation } = useConsultation();
 
-  // Query params
-  const initialQuery = searchParams.get('q') || '';
-  const initialBrand = searchParams.get('brand') || '';
-  const initialConcern = searchParams.get('concern') || '';
-
-  const [search, setSearch] = useState(initialQuery);
-  const [selectedBrand, setSelectedBrand] = useState(initialBrand);
-  const [selectedConcern, setSelectedConcern] = useState(initialConcern);
+  const [search, setSearch] = useState('');
+  const [selectedBrand, setSelectedBrand] = useState('');
+  const [selectedConcern, setSelectedConcern] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('');
   const [sortBy, setSortBy] = useState<'featured' | 'price-asc' | 'price-desc' | 'name-asc'>('featured');
   const [quickViewProduct, setQuickViewProduct] = useState<Product | null>(null);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+
+  // Sync URL query params (?q=, ?brand=, ?concern=) on client after mount so SSR renders all 65 products
+  useEffect(() => {
+    const syncFromUrl = () => {
+      const params = new URLSearchParams(window.location.search);
+      const q = params.get('q') || '';
+      const brand = params.get('brand') || '';
+      const concern = params.get('concern') || '';
+      if (q) setSearch(q);
+      if (brand) setSelectedBrand(brand);
+      if (concern) setSelectedConcern(concern);
+    };
+
+    const rafId = requestAnimationFrame(syncFromUrl);
+    return () => cancelAnimationFrame(rafId);
+  }, []);
 
   const allProducts = productsData as Product[];
 
@@ -211,7 +220,7 @@ function ShopContent() {
               <div className="flex items-center justify-between pb-3 border-b border-slate-100">
                 <span className="font-serif font-bold text-base text-slate-900 flex items-center gap-2">
                   <Filter className="w-4 h-4 text-[#0a2240]" />
-                  Filter Catalog
+                  Filter Catalogue
                 </span>
 
                 {hasActiveFilters && (
@@ -434,13 +443,5 @@ function ShopContent() {
         onClose={() => setQuickViewProduct(null)}
       />
     </div>
-  );
-}
-
-export default function ShopPage() {
-  return (
-    <Suspense fallback={<div className="p-12 text-center text-sm text-slate-500">Loading skincare catalog...</div>}>
-      <ShopContent />
-    </Suspense>
   );
 }

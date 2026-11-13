@@ -98,7 +98,7 @@ export default function HowItWorksPage() {
             Ready to Begin Your Skincare Journey?
           </h3>
           <p className="text-sm text-slate-300 max-w-xl mx-auto">
-            Take the first step to healthier, glowing skin. Book your consultation today and we will design a personalized plan just for you.
+            Take the first step to healthier, glowing skin. Book your consultation today and we will design a personalised plan just for you.
           </p>
           <div className="pt-2">
             <button

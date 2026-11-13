@@ -179,7 +179,7 @@ export default function ZOSkinHealthBrandPage() {
               Getting Skin Ready® (GSR)
             </h2>
             <p className="text-sm sm:text-base text-slate-600 mt-2">
-              Every healthy skincare transformation begins with Dr. Zein Obagi&apos;s proven 3-step system to normalize skin function.
+              Every healthy skincare transformation begins with Dr. Zein Obagi&apos;s proven 3-step system to normalise skin function.
             </p>
           </div>
 

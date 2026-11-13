@@ -27,7 +27,7 @@ export async function generateMetadata({
 
   const description = cleanMetaDescription(
     product.shortDescription || product.description || `${product.name} by ${product.brand}`,
-    160
+    155
   );
   const canonicalUrl = `${SITE_URL}/shop/${product.slug}`;
 

@@ -64,7 +64,7 @@ ${formData.notes ? `*Notes:* ${formData.notes}` : ''}`;
             Book Your Free Skin Consultation
           </h1>
           <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            Get personalized advice, clinical recommendations for ZO® Skin Health and Obagi® Medical, and a tailored treatment plan designed by Roslyn Bolton.
+            Get personalised advice, clinical recommendations for ZO® Skin Health and Obagi® Medical, and a tailored treatment plan designed by Roslyn Bolton.
           </p>
         </div>
 

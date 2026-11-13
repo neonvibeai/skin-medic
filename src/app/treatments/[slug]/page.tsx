@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  const description = cleanMetaDescription(treatment.description, 160);
+  const description = cleanMetaDescription(treatment.description, 155);
   const canonicalUrl = `${SITE_URL}/treatments/${treatment.slug}`;
 
   return {
