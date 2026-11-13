@@ -23,6 +23,8 @@ export const CLINIC_INFO = {
   email: 'info@skinmedicskincare.com',
   whatsappNumber: '447956072102',
   whatsappUrl: 'https://wa.me/447956072102',
+  // Google Business profile search for the clinic (opens the rating and reviews panel)
+  googleReviewsUrl: 'https://www.google.com/search?q=skin+medic+skin+care+hucknall',
   stats: {
     googleRating: '4.9',
     googleReviewsCount: '150+',

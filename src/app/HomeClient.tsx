@@ -98,10 +98,16 @@ export default function HomePage() {
 
               {/* Trust Indicators */}
               <div className="pt-6 border-t border-slate-200 grid grid-cols-3 gap-2 sm:gap-4 text-center lg:text-left">
-                <div>
+                <a
+                  href={CLINIC_INFO.googleReviewsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group block"
+                  aria-label="Read our Google reviews (opens in a new tab)"
+                >
                   <div className="text-lg sm:text-2xl font-bold font-serif text-slate-900">4.9 / 5.0</div>
-                  <div className="text-[10px] sm:text-[11px] text-slate-500 font-medium leading-tight mt-0.5">Google Verified Rating</div>
-                </div>
+                  <div className="text-[10px] sm:text-[11px] text-slate-500 font-medium leading-tight mt-0.5 underline decoration-slate-300 underline-offset-2 group-hover:text-[#0a2240] group-hover:decoration-[#0a2240]">Google Verified Rating</div>
+                </a>
                 <div>
                   <div className="text-lg sm:text-2xl font-bold font-serif text-[#0a2240] leading-tight">Expert Guidance</div>
                   <div className="text-[10px] sm:text-[11px] text-slate-500 font-medium leading-tight mt-0.5">Personalised Skincare Support</div>
@@ -837,6 +843,15 @@ export default function HomePage() {
             <h2 className="text-3xl font-serif font-bold text-slate-900 mt-1">
               What Our Patients Say
             </h2>
+            <a
+              href={CLINIC_INFO.googleReviewsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 mt-3 text-sm font-semibold text-[#0a2240] hover:underline"
+            >
+              Read all our reviews on Google
+              <ArrowRight className="w-4 h-4" />
+            </a>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
