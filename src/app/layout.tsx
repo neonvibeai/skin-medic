@@ -8,7 +8,7 @@ import ConsultationModal from '@/components/ConsultationModal';
 import JsonLd from '@/components/JsonLd';
 import { ConsultationProvider } from '@/context/ConsultationContext';
 import { CLINIC_INFO } from '@/data/siteData';
-import { IS_PREVIEW_ENV, SITE_URL } from '@/lib/siteConfig';
+import { ALLOW_INDEXING, SITE_URL } from '@/lib/siteConfig';
 
 const playfair = Playfair_Display({
   subsets: ['latin', 'latin-ext'],
@@ -26,7 +26,7 @@ const roboto = Roboto({
   display: 'swap'
 });
 
-const shouldNoIndex = IS_PREVIEW_ENV || SITE_URL.includes('vercel.app');
+const shouldNoIndex = !ALLOW_INDEXING;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

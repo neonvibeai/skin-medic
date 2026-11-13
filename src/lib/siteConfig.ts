@@ -8,6 +8,16 @@ export const SITE_URL = (
 export const IS_PREVIEW_ENV =
   process.env.VERCEL_ENV !== undefined && process.env.VERCEL_ENV !== 'production';
 
+/**
+ * Search engines may index the site only once NEXT_PUBLIC_ALLOW_INDEXING=true
+ * is set in Vercel (on the day the real domain is switched over). Until then
+ * every deployment, production included, sends noindex and Disallow: /.
+ */
+export const ALLOW_INDEXING =
+  process.env.NEXT_PUBLIC_ALLOW_INDEXING === 'true' &&
+  !IS_PREVIEW_ENV &&
+  !SITE_URL.includes('vercel.app');
+
 const allProducts = productsData as Product[];
 
 export const CATALOG_COUNTS = {
