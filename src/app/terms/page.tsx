@@ -1,4 +1,13 @@
 import React from 'react';
+import type { Metadata } from 'next';
+import { buildPageMetadata } from '@/lib/seo';
+
+export const metadata: Metadata = buildPageMetadata({
+  title: 'Terms & Conditions',
+  description:
+    'Read the Terms and Conditions for consultations, medical skincare orders and clinical services provided by Skin Medic Skin Care Limited.',
+  path: '/terms'
+});
 
 export default function TermsPage() {
   return (

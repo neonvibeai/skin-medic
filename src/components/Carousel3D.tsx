@@ -1,7 +1,21 @@
 'use client';
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useSyncExternalStore } from 'react';
 import { ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
+
+function subscribeReducedMotion(callback: () => void) {
+  const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+  mq.addEventListener('change', callback);
+  return () => mq.removeEventListener('change', callback);
+}
+
+function getReducedMotionSnapshot() {
+  return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+}
+
+function getReducedMotionServerSnapshot() {
+  return false;
+}
 
 export interface Slide {
   src: string;
@@ -21,7 +35,7 @@ const DEFAULT_SLIDES: Slide[] = [
     src: '/images/hero-2.jpg',
     alt: 'Client applying nourishing medical-grade treatment cream',
     caption: 'Targeted Cellular Renewal',
-    tagline: 'Evidence-backed ZO® Skin Health & Obagi® Medical'
+    tagline: 'Evidence-backed ZO\u00A0Skin\u00A0Health & Obagi\u00A0Medical'
   },
   {
     src: '/images/hero-3.jpg',
@@ -42,26 +56,15 @@ export default function Carousel3D({
 }: Carousel3DProps) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(true);
-  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
+  const prefersReducedMotion = useSyncExternalStore(
+    subscribeReducedMotion,
+    getReducedMotionSnapshot,
+    getReducedMotionServerSnapshot
+  );
 
   // Touch handling
   const touchStartX = useRef<number | null>(null);
   const touchEndX = useRef<number | null>(null);
-
-  // Check reduced motion
-  useEffect(() => {
-    const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-    setPrefersReducedMotion(mediaQuery.matches);
-    if (mediaQuery.matches) setIsPlaying(false);
-
-    const handler = (e: MediaQueryListEvent) => {
-      setPrefersReducedMotion(e.matches);
-      if (e.matches) setIsPlaying(false);
-    };
-
-    mediaQuery.addEventListener('change', handler);
-    return () => mediaQuery.removeEventListener('change', handler);
-  }, []);
 
   // Autoplay every 3.5 seconds (loop: true)
   useEffect(() => {
@@ -179,9 +182,9 @@ export default function Carousel3D({
                 <span className="text-[10px] font-bold uppercase tracking-wider text-cyan-300">
                   {slide.tagline}
                 </span>
-                <h4 className="font-serif font-bold text-base sm:text-lg text-white mt-0.5 drop-shadow-sm">
+                <p className="font-serif font-bold text-base sm:text-lg text-white mt-0.5 drop-shadow-sm">
                   {slide.caption}
-                </h4>
+                </p>
               </div>
             </div>
           );

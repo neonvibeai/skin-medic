@@ -96,7 +96,7 @@ export const BEFORE_AFTER_CASES = [
     client: 'Clinical Case Study',
     program: 'Claribright Radiance Brightening Lotion',
     quote: 'Clinically proven, non-irritating skincare system designed to visibly improve skin brightness, reduce redness, and target hyperpigmentation.',
-    results: ['Reduced redness', 'Brightened complexion', 'Even tone achieved through personalized protocol'],
+    results: ['Reduced redness', 'Brightened complexion', 'Even tone achieved through personalised protocol'],
     brand: 'Obagi Medical'
   },
   {
@@ -135,7 +135,7 @@ export const SKIN_CONCERNS = [
     name: 'Oily Skin',
     slug: 'oily-skin',
     tagline: 'Balance and refine',
-    description: 'Normalize surface sebum, minimize enlarged pores, and promote a clean matte finish.',
+    description: 'Normalise surface sebum, minimise enlarged pores, and promote a clean matte finish.',
     recommendedBrand: 'ZO Skin Health'
   },
   {

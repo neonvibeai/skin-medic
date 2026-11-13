@@ -1,8 +1,11 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 import treatmentsData from '@/data/treatments.json';
 import { Treatment } from '@/types';
+import JsonLd from '@/components/JsonLd';
+import { SITE_URL } from '@/lib/siteConfig';
+import { cleanMetaDescription } from '@/lib/seo';
 import TreatmentDetailClient from './TreatmentDetailClient';
 
 interface Props {
@@ -25,13 +28,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!treatment) {
     return {
-      title: 'Treatment Not Found | Skin Medic'
+      title: 'Treatment Not Found'
     };
   }
 
+  const description = cleanMetaDescription(treatment.description, 160);
+  const canonicalUrl = `${SITE_URL}/treatments/${treatment.slug}`;
+
   return {
-    title: `${treatment.title} | Skin Medic Clinical Treatments`,
-    description: treatment.description.slice(0, 160)
+    title: `${treatment.title} | Clinical Treatments`,
+    description,
+    alternates: {
+      canonical: canonicalUrl
+    },
+    openGraph: {
+      title: `${treatment.title} | Clinical Treatments | Skin Medic Skin Care`,
+      description,
+      url: canonicalUrl,
+      siteName: 'Skin Medic Skin Care',
+      locale: 'en_GB',
+      type: 'website'
+    }
   };
 }
 
@@ -44,5 +61,35 @@ export default async function TreatmentPage({ params }: Props) {
     notFound();
   }
 
-  return <TreatmentDetailClient treatment={treatment} />;
+  const breadcrumbJsonLd: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: SITE_URL
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Treatments',
+        item: `${SITE_URL}/treatments`
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: treatment.title,
+        item: `${SITE_URL}/treatments/${treatment.slug}`
+      }
+    ]
+  };
+
+  return (
+    <>
+      <JsonLd data={breadcrumbJsonLd} />
+      <TreatmentDetailClient treatment={treatment} />
+    </>
+  );
 }

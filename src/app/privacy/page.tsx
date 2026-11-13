@@ -1,5 +1,14 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import { CLINIC_INFO } from '@/data/siteData';
+import { buildPageMetadata } from '@/lib/seo';
+
+export const metadata: Metadata = buildPageMetadata({
+  title: 'Privacy Policy',
+  description:
+    'Read the Privacy Policy for Skin Medic Skin Care Limited in Hucknall, Nottingham, explaining how we handle personal and clinical data.',
+  path: '/privacy'
+});
 
 export default function PrivacyPage() {
   return (

@@ -6,6 +6,7 @@ import { usePathname, useRouter } from 'next/navigation';
 import { useConsultation } from '@/context/ConsultationContext';
 import productsData from '@/data/products.json';
 import treatmentsData from '@/data/treatments.json';
+import { CATALOG_COUNTS } from '@/lib/siteConfig';
 import { Product, Treatment } from '@/types';
 import {
   Menu,
@@ -71,10 +72,12 @@ export default function Navbar() {
   }, []);
 
   // Close mobile menu on route change
-  useEffect(() => {
+  const [prevPathname, setPrevPathname] = useState(pathname);
+  if (pathname !== prevPathname) {
+    setPrevPathname(pathname);
     setMobileMenuOpen(false);
     setShowSearchDropdown(false);
-  }, [pathname]);
+  }
 
   const handleSearchSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -190,7 +193,7 @@ export default function Navbar() {
                                   : 'bg-slate-200 text-slate-800'
                               }`}
                             >
-                              {p.brand === 'ZO Skin Health' ? 'ZO® Skin Health' : 'Obagi® Medical'}
+                              {p.brand === 'ZO Skin Health' ? 'ZO\u00A0Skin\u00A0Health' : 'Obagi\u00A0Medical'}
                             </span>
                             <span className="text-xs font-bold text-[#0a2240]">
                               £{p.price.toFixed(2)}
@@ -246,9 +249,9 @@ export default function Navbar() {
                   className="p-3 rounded-xl hover:bg-blue-50/90 transition flex flex-col gap-0.5 border-l-3 border-transparent hover:border-[#0a2240]"
                 >
                   <div className="flex items-center justify-between">
-                    <span className="font-serif font-bold text-sm text-[#0a2240]">ZO® Skin Health</span>
+                    <span className="font-serif font-bold text-sm text-[#0a2240]">ZO®{'\u00A0'}Skin{'\u00A0'}Health</span>
                   </div>
-                  <span className="text-[11px] text-slate-500">By Dr. Zein Obagi MD • 42 Products</span>
+                  <span className="text-[11px] text-slate-500">By Dr. Zein Obagi MD • {CATALOG_COUNTS.zo} Products</span>
                 </Link>
 
                 <Link
@@ -258,7 +261,7 @@ export default function Navbar() {
                   <div className="flex items-center justify-between">
                     <span className="font-serif font-bold text-sm text-slate-900">Obagi® Medical</span>
                   </div>
-                  <span className="text-[11px] text-slate-500">Transformative Systems • 23 Products</span>
+                  <span className="text-[11px] text-slate-500">Transformative Systems • {CATALOG_COUNTS.obagi} Products</span>
                 </Link>
 
                 <div className="border-t border-slate-100 my-1" />
@@ -267,7 +270,7 @@ export default function Navbar() {
                   href="/shop"
                   className="p-2 text-center text-xs font-bold text-[#0a2240] hover:underline block"
                 >
-                  Browse All 65 Products →
+                  Browse All {CATALOG_COUNTS.total} Products →
                 </Link>
               </div>
             </div>

@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { CLINIC_INFO } from '@/data/siteData';
+import { CATALOG_COUNTS } from '@/lib/siteConfig';
 import { useConsultation } from '@/context/ConsultationContext';
 import { Mail, Phone, MapPin, Send, CheckCircle, ShieldCheck } from 'lucide-react';
 
@@ -106,12 +107,12 @@ export default function Footer() {
               <li>
                 <Link href="/brands/zo-skin-health" className="text-cyan-300 hover:text-white font-medium flex items-center gap-1.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-cyan-400"></span>
-                  ZO® Skin Health
+                  ZO{'\u00A0'}Skin{'\u00A0'}Health
                 </Link>
               </li>
               <li>
                 <Link href="/shop?brand=ZO+Skin+Health" className="text-slate-400 hover:text-white transition">
-                  ZO Products (42 items)
+                  ZO Products ({CATALOG_COUNTS.zo} items)
                 </Link>
               </li>
               <li>
@@ -122,17 +123,17 @@ export default function Footer() {
               <li>
                 <Link href="/brands/obagi-medical" className="text-slate-300 hover:text-white font-medium flex items-center gap-1.5 mt-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
-                  Obagi® Medical
+                  Obagi Medical
                 </Link>
               </li>
               <li>
                 <Link href="/shop?brand=Obagi+Medical" className="text-slate-400 hover:text-white transition">
-                  Obagi Systems (53 items)
+                  Obagi Systems ({CATALOG_COUNTS.obagi} items)
                 </Link>
               </li>
               <li>
                 <Link href="/shop" className="text-slate-400 hover:text-white transition">
-                  Browse Full Catalog (95)
+                  Browse Full Catalogue ({CATALOG_COUNTS.total})
                 </Link>
               </li>
             </ul>

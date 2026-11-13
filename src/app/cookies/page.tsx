@@ -1,4 +1,13 @@
 import React from 'react';
+import type { Metadata } from 'next';
+import { buildPageMetadata } from '@/lib/seo';
+
+export const metadata: Metadata = buildPageMetadata({
+  title: 'Cookie Policy',
+  description:
+    'Read the Cookie Policy for Skin Medic Skin Care to understand how essential and functional cookies are used on our clinic website.',
+  path: '/cookies'
+});
 
 export default function CookiesPage() {
   return (

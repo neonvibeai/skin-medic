@@ -21,6 +21,14 @@ h1, h2, h3, h4, h5, h6, .font-serif {
   font-family: var(--font-playfair), 'Playfair Display', Georgia, serif !important;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
 /* Parallax image: fixed background (desktop), graceful fallback on touch devices */
 .parallax-fixed {
   background-attachment: fixed;

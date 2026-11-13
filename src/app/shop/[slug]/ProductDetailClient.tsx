@@ -48,7 +48,7 @@ export default function ProductDetailClient({
           </Link>
           <ChevronRight className="w-3 h-3 text-slate-400" />
           <Link href="/shop" className="hover:text-slate-900 transition">
-            Shop Catalog
+            Shop Catalogue
           </Link>
           <ChevronRight className="w-3 h-3 text-slate-400" />
           <Link

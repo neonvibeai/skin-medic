@@ -27,15 +27,7 @@ export default function ProductCard({ product, onQuickView }: ProductCardProps) 
               : 'bg-[#0a2240] text-blue-200 border border-blue-300/35'
           }`}
         >
-          {isZO ? (
-            <>
-              ZO<sup className="text-[0.6em] font-normal">®</sup> Skin Health
-            </>
-          ) : (
-            <>
-              Obagi<sup className="text-[0.6em] font-normal">®</sup> Medical
-            </>
-          )}
+          {isZO ? 'ZO\u00A0Skin\u00A0Health' : 'Obagi\u00A0Medical'}
         </span>
 
         {product.isMostLoved && (
@@ -79,15 +71,7 @@ export default function ProductCard({ product, onQuickView }: ProductCardProps) 
             <div className="w-24 h-36 rounded-b-xl shadow-md border bg-white border-slate-200/90 text-slate-800 flex flex-col items-center justify-between p-2.5 text-center">
               <div className="pt-1">
                 <div className={`text-[8px] font-black tracking-widest ${isZO ? 'text-[#002447]' : 'text-[#1b2b48]'}`}>
-                  {isZO ? (
-                    <>
-                      ZO<sup className="text-[0.6em] font-normal">®</sup> SKIN HEALTH
-                    </>
-                  ) : (
-                    <>
-                      OBAGI<sup className="text-[0.6em] font-normal">®</sup>
-                    </>
-                  )}
+                  {isZO ? 'ZO\u00A0SKIN\u00A0HEALTH' : 'OBAGI'}
                 </div>
               </div>
               <div className="my-auto px-1">
