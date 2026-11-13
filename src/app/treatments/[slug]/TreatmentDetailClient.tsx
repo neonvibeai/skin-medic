@@ -77,7 +77,7 @@ export default function TreatmentDetailClient({ treatment }: Props) {
               className="px-8 py-3.5 rounded-xl bg-[#0a2240] hover:bg-[#123661] text-white text-xs font-semibold tracking-wider uppercase transition shadow-lg flex items-center gap-2"
             >
               <Calendar className="w-4 h-4 text-cyan-300" />
-              {treatment.ctaButton || 'Book a consultation'}
+              Book a treatment
             </a>
             <div className="flex items-center gap-2 text-xs text-slate-500">
               <ShieldCheck className="w-4 h-4 text-emerald-600" />
@@ -168,7 +168,7 @@ export default function TreatmentDetailClient({ treatment }: Props) {
                 className="shrink-0 px-6 py-3.5 rounded-xl bg-[#0a2240] hover:bg-[#123661] text-white font-semibold text-xs uppercase tracking-wider transition shadow-md flex items-center justify-center gap-2"
               >
                 <Calendar className="w-4 h-4 text-cyan-300" />
-                {treatment.ctaButton || 'Book a consultation'}
+                Book a treatment
               </a>
             </div>
           </div>
@@ -232,7 +232,7 @@ export default function TreatmentDetailClient({ treatment }: Props) {
                       className="w-full md:w-auto px-6 py-3 rounded-xl bg-slate-900 hover:bg-[#0a2240] text-white text-xs font-semibold tracking-wider uppercase transition shadow-sm flex items-center justify-center gap-2"
                     >
                       <Calendar className="w-3.5 h-3.5 text-cyan-300" />
-                      Book this treatment
+                      Book a treatment
                     </a>
                   </div>
                 </div>
@@ -309,7 +309,7 @@ export default function TreatmentDetailClient({ treatment }: Props) {
               className="px-8 py-3.5 rounded-xl bg-[#0a2240] hover:bg-[#123661] text-white text-xs font-bold uppercase tracking-wider transition shadow-lg inline-flex items-center gap-2"
             >
               <Calendar className="w-4 h-4 text-cyan-300" />
-              {treatment.ctaButton}
+              Book a treatment
             </a>
           </div>
         </div>

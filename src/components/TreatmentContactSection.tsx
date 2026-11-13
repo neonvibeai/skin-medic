@@ -54,7 +54,7 @@ export default function TreatmentContactSection({ treatmentTitle }: Props) {
             className="px-8 py-3.5 rounded-xl bg-cyan-400 hover:bg-cyan-300 text-slate-950 text-xs font-bold uppercase tracking-wider transition shadow-xl inline-flex items-center gap-2"
           >
             <Calendar className="w-4 h-4 text-slate-950" />
-            Book Treatment Online
+            Book a treatment
           </a>
         </div>
 

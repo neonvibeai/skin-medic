@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { Product } from '@/types';
@@ -80,11 +81,14 @@ export default function ProductDetailClient({
               {/* Main Image */}
               <div className="my-auto py-4 flex items-center justify-center w-full min-h-[260px]">
                 {images.length > 0 ? (
-                  <img
+                  <Image
                     src={images[selectedImgIdx] || images[0]}
                     alt={product.name}
-                    className="max-h-72 max-w-full object-contain drop-shadow-xl transition-all duration-300"
-                  />
+                    className="max-h-72 max-w-full object-contain drop-shadow-xl transition-all duration-300 w-auto h-auto"
+  width={800}
+  height={800}
+  sizes="(max-width: 1024px) 90vw, 500px"
+/>
                 ) : (
                   <div className="w-36 h-56 rounded-b-2xl bg-white shadow-xl border border-slate-200 flex flex-col items-center justify-between p-4 text-center">
                     <div className="text-xs font-black tracking-widest text-slate-800 pt-2">
@@ -121,11 +125,14 @@ export default function ProductDetailClient({
                           : 'border-slate-200 opacity-70 hover:opacity-100'
                       }`}
                     >
-                      <img
+                      <Image
                         src={img}
                         alt={`${product.name} - view ${idx + 1}`}
                         className="w-full h-full object-contain"
-                      />
+  width={160}
+  height={160}
+  sizes="80px"
+/>
                     </button>
                   ))}
                 </div>
@@ -186,7 +193,7 @@ export default function ProductDetailClient({
                     className="flex-1 py-3.5 px-6 rounded-xl bg-[#0a2240] hover:bg-[#123661] text-white font-bold text-sm shadow-lg shadow-blue-950/20 transition flex items-center justify-center gap-2"
                   >
                     <Calendar className="w-4 h-4 text-cyan-300" />
-                    Book Free Consultation For This Product
+                    Free skincare consultation
                   </button>
 
                   <a

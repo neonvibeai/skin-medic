@@ -106,7 +106,7 @@ export default function HowItWorksPage() {
               className="px-8 py-3.5 rounded-xl bg-cyan-400 text-slate-950 font-bold text-sm hover:bg-cyan-300 transition shadow-lg inline-flex items-center gap-2"
             >
               <Calendar className="w-4 h-4 text-slate-950" />
-              Book Your Free Consultation Now
+              Free skincare consultation
             </button>
           </div>
         </div>

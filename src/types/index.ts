@@ -1,6 +1,7 @@
 export interface Product {
   id: string;
   slug: string;
+  legacySlug?: string;
   name: string;
   brand: 'ZO Skin Health' | 'Obagi Medical';
   price: number;

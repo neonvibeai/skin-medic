@@ -1,7 +1,7 @@
 [
   {
     "id": "6449",
-    "slug": "exfoliating-cleanser-6449",
+    "slug": "zo-exfoliating-cleanser-normal-to-oily-skin",
     "name": "Exfoliating Cleanser (Normal to Oily Skin) – 200 ml",
     "brand": "ZO Skin Health",
     "price": 47.98,
@@ -37,11 +37,12 @@
     "benefits": "• Clears away surface oil, debris, and impurities without stripping moisture\n• Gently exfoliates dead skin cells to unclog pores and refine texture\n• Calms and soothes irritated, blemish-prone skin\n• Leaves skin feeling clean, refreshed, and invigorated",
     "safetyInfo": "For external use only. Avoid direct contact with eyes; if contact occurs, rinse thoroughly with water. Contains Salicylic Acid; use sunscreen daily while using this product. Discontinue use if persistent irritation develops.",
     "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
-    "mostLovedOrder": 1
+    "mostLovedOrder": 1,
+    "legacySlug": "exfoliating-cleanser-6449"
   },
   {
     "id": "6452",
-    "slug": "hydrating-cleanser-6452",
+    "slug": "zo-hydrating-cleanser-normal-to-dry-skin",
     "name": "Hydrating Cleanser (Normal to Dry Skin) – 200 ml",
     "brand": "ZO Skin Health",
     "price": 47.98,
@@ -75,11 +76,12 @@
     "ingredients": "• Sodium Hyaluronate & Panthenol: Humectants that attract and lock in cellular moisture\n• Glycerin: Rehydrates skin and supports lipid bilayer integrity\n• Allantoin: Soothes redness, promotes comfort, and reduces irritation\n• Urea: Enhances natural moisturising factors (NMF)",
     "benefits": "• Gently cleanses away makeup, impurities, and surface oils without stripping essential lipids\n• Hydrates and replenishes the skin barrier during the cleansing step\n• Calms, soothes, and comforts dry, sensitive, or irritated skin\n• Prepares the skin for subsequent ZO® therapeutic regimens",
     "safetyInfo": "For external use only. Keep out of reach of children. If contact with eyes occurs, rinse thoroughly with water. Discontinue use if irritation or rash appears.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "hydrating-cleanser-6452"
   },
   {
     "id": "6455",
-    "slug": "gentle-cleanser-6455",
+    "slug": "zo-gentle-cleanser-all-skin-types",
     "name": "Gentle Cleanser (All Skin Types) – 200 ml",
     "brand": "ZO Skin Health",
     "price": 47.98,
@@ -112,11 +114,12 @@
     "ingredients": "• Sodium Lauroyl Oat Amino Acids: Gentle surfactant that cleanses without barrier disruption\n• Glycerin: Powerful humectant replenishing surface moisture\n• Botanical Extract Blend (Green Tea & Meadowsweet): High-potency antioxidants defending against environmental stress",
     "benefits": "• Deeply cleanses pores of oil, dirt, makeup, and daily pollutants\n• Formulated with botanical extracts to deliver antioxidant and anti-irritant benefits\n• Leaves skin feeling exceptionally clean, refreshed, and calm\n• Soap-free, sulfate-free formulation that respects skin pH",
     "safetyInfo": "For external use only. Avoid contact with eyes. In case of eye contact, rinse thoroughly. Store at controlled room temperature (15–30°C).",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "gentle-cleanser-6455"
   },
   {
     "id": "6458",
-    "slug": "balancing-cleansing-emulsion-6458",
+    "slug": "zo-balancing-cleansing-emulsion",
     "name": "Balancing Cleansing Emulsion – 200 ml",
     "brand": "ZO Skin Health",
     "price": 49.18,
@@ -149,11 +152,12 @@
     "ingredients": "• Emulsion Cleansing Matrix: Mild lipid-replenishing cleansing base\n• Bisabolol: Clinically proven soothing agent derived from chamomile\n• Avena Sativa (Oat) Kernel Extract: Anti-inflammatory botanical calming erythema and itching\n• Ethylhexyl Palmitate: Skin-softening ester that dissolves sebum gently",
     "benefits": "• Clinically proven to condition and soothe sensitive, post-treatment, or compromised skin\n• Innovative gel-to-milk emulsion transforms with water to melt makeup and impurities\n• Protects and reinforces the delicate epidermal moisture barrier\n• Fragrance-free, sulfate-free, and non-foaming formula",
     "safetyInfo": "Dermatologically tested. Safe for post-aesthetic procedure use once re-epithelialization has begun. For external use only.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "balancing-cleansing-emulsion-6458"
   },
   {
     "id": "6461",
-    "slug": "exfoliating-polish-6461",
+    "slug": "zo-exfoliating-polish",
     "name": "Exfoliating Polish – 65 g",
     "brand": "ZO Skin Health",
     "price": 64.78,
@@ -194,11 +198,12 @@
     "ingredients": "• Ultra-Fine Magnesium Oxide Crystals: Medical-grade round crystals providing uniform physical resurfacing\n• Tetrahexyldecyl Ascorbate (Vitamin C-Ester) & Retinyl Palmitate (Vitamin A): Antioxidant protection\n• Melaleuca Alternifolia (Tea Tree) Leaf Oil: Sebum-regulating and purifying\n• Glycine Soja Sterols: Lipid restoration",
     "benefits": "• Dr. Zein Obagi's #1 global best-selling physical exfoliant\n• Ultra-fine round magnesium crystals physically buff away dead skin cells with zero micro-tearing\n• Instantly restores skin smoothness, radiant luminosity, and clarity\n• Promotes micro-circulation and enhances penetration of subsequent active corrective products",
     "safetyInfo": "Do not apply excessive pressure. Avoid contact with the eye area. Not recommended for active pustular acne or active skin infections. Always wear broad-spectrum SPF 30+ during the day.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "exfoliating-polish-6461"
   },
   {
     "id": "6468",
-    "slug": "dual-action-scrub-6468",
+    "slug": "zo-dual-action-scrub",
     "name": "Dual Action Scrub – 116 g",
     "brand": "ZO Skin Health",
     "price": 76.78,
@@ -232,11 +237,12 @@
     "ingredients": "• Salicylic Acid (2%) & Lactic Acid: Chemical exfoliating AHA/BHA complex dissolving sebum\n• Synthetic Wax / Candelilla Wax Beads: Non-abrasive, eco-friendly physical scrubbing spheres\n• ZOX12®: Exclusive 12-hour time-release antioxidant complex (Vitamins A, C, and E)\n• Melaleuca Alternifolia (Tea Tree) Oil: Antibacterial support",
     "benefits": "• Dual-action physical and chemical exfoliation targeting surface debris and deep pore congestion\n• Salicylic and lactic acids chemically dissolve cellular glue and sebum plugs\n• Round wax beads mechanically loosen dead cells without abrading inflamed lesions\n• Neutralises free radicals and calms inflammation associated with breakouts",
     "safetyInfo": "Contains Salicylic Acid (BHA). If excessive drying or peeling occurs, reduce application frequency. Use broad-spectrum sunscreen daily. Not suitable for pregnant/breastfeeding individuals without clinical consultation.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "dual-action-scrub-6468"
   },
   {
     "id": "6471",
-    "slug": "complexion-renewal-pads-6471",
+    "slug": "zo-complexion-renewal-pads",
     "name": "Complexion Renewal Pads – 60 pads",
     "brand": "ZO Skin Health",
     "price": 55.18,
@@ -279,11 +285,12 @@
     "benefits": "• Clinically formulated textured toning pads that remove surface oils and dead skin cells\n• Balances skin pH to optimise therapeutic product absorption\n• Calms and soothes irritated skin while delivering gentle chemical exfoliation\n• Leaves skin smoothed, refreshed, and primed for corrective serums",
     "safetyInfo": "Sunburn Alert: Contains AHAs and BHAs that may increase skin sensitivity to the sun. Use a high-factor sunscreen (SPF 30+) and limit sun exposure. May cause slight tingling on initial applications.",
     "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
-    "mostLovedOrder": 2
+    "mostLovedOrder": 2,
+    "legacySlug": "complexion-renewal-pads-6471"
   },
   {
     "id": "6478",
-    "slug": "oil-control-pads-6478",
+    "slug": "zo-oil-control-pads",
     "name": "Oil Control Pads – 60 pads",
     "brand": "ZO Skin Health",
     "price": 64.78,
@@ -317,11 +324,12 @@
     "ingredients": "• Salicylic Acid 2.0%: FDA-strength acne-fighting BHA penetrating deep into pore walls\n• Glycolic Acid & Mandelic Acid: Dual AHAs accelerating cellular renewal and reducing hyperpigmentation\n• Rosa Canina (Dog Rose) Fruit Extract: Regulates surface sebum and tightens pore appearance\n• Spiraea Ulmaria Extract: Potent soothing agent",
     "benefits": "• Maximum strength 2% Salicylic Acid clears acne breakouts and prevents future flare-ups\n• Triple-acid complex (Salicylic, Glycolic, Mandelic) refines pores and exfoliates sebum\n• Textured pads effectively pull oil and dead skin cells out of follicles\n• Botanical extracts soothe inflammation and reduce noticeable erythema",
     "safetyInfo": "If bothersome dryness or peeling occurs, reduce to once daily or every other day. Contains 2% BHA; use daily broad-spectrum SPF 50. Contraindicated in pregnancy without clinical approval.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "oil-control-pads-6478"
   },
   {
     "id": "6481",
-    "slug": "calming-toner-6481",
+    "slug": "zo-calming-toner-ph-balancer",
     "name": "Calming Toner pH Balancer – 180 ml",
     "brand": "ZO Skin Health",
     "price": 43.18,
@@ -355,11 +363,12 @@
     "ingredients": "• Hamamelis Virginiana (Witch Hazel) Extract: Natural astringent that refines pores and diminishes redness\n• Sodium Hyaluronate & Sodium PCA: Powerful humectants retaining moisture in the skin\n• Panthenol (Pro-Vitamin B5) & Allantoin: Promote barrier repair and comfort sensitised skin\n• Chamomilla Recutita (Matricaria) Flower Extract: Anti-inflammatory calming botanical",
     "benefits": "• Calms and balances dry, sensitive, and irritated skin while restoring ideal acidic mantle pH\n• Removes residual surface impurities without dehydrating the barrier\n• Conditioning humectant blend deeply replenishes moisture\n• Tightens the appearance of enlarged pores with gentle botanical astringency",
     "safetyInfo": "For external use only. Avoid contact with eyes. Discontinue use if signs of irritation appear.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "calming-toner-6481"
   },
   {
     "id": "6484",
-    "slug": "complexion-clearing-masque-6484",
+    "slug": "zo-complexion-clearing-masque",
     "name": "Complexion Clearing Masque – 85 g",
     "brand": "ZO Skin Health",
     "price": 0,
@@ -391,11 +400,12 @@
     "ingredients": "• Sulfur 10.0%: Clinically validated active that reduces sebum, kills P. acnes bacteria, and unclogs follicles\n• Kaolin & Bentonite: Purifying mineral clays that detoxify and mattify congested pores\n• Glycerin: Counteracts potential dryness and preserves barrier hydration\n• Eucalyptus Globulus Leaf Oil: Natural antiseptic providing a cooling, purifying sensation",
     "benefits": "• Therapeutic 10% Sulfur formula treats and prevents acne breakouts and blackheads\n• Dual natural clays (Kaolin and Bentonite) absorb sebum, surface oils, and debris\n• Calms inflammation and reduces post-breakout redness\n• Can be utilised as a full-face weekly treatment or targeted overnight blemish spot treatment",
     "safetyInfo": "Contains 10% Sulfur. Do not use on broken or widespread peeling skin. If excessive dryness or flaking occurs, reduce usage frequency to once weekly.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "complexion-clearing-masque-6484"
   },
   {
     "id": "6487",
-    "slug": "complexion-clarifying-serum-6487",
+    "slug": "zo-complexion-clarifying-serum",
     "name": "Complexion Clarifying Serum – 50 ml",
     "brand": "ZO Skin Health",
     "price": 0,
@@ -428,11 +438,12 @@
     "ingredients": "• Water-soluble Salicylic Acid: Clarifies pores without stripping surface lipids\n• Polysaccharide Complex: Supports healthy skin microbiome balance\n• Botanical Redness Reducers: Calms visible inflammation and post-blemish marks\n• Sodium Hyaluronate: Weightless hydration",
     "benefits": "• Water-gel serum clinically proven to reduce excess surface sebum and unclog pores\n• Reinforces skin's natural microbiome and strengthens barrier function\n• Calms visible redness and delivers a clearer, smoother, shine-free complexion\n• Featherlight texture absorbs instantly without leaving sticky residue",
     "safetyInfo": "For external use only. Use sunscreen daily. Discontinue use if signs of excessive irritation occur.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "complexion-clarifying-serum-6487"
   },
   {
     "id": "6491",
-    "slug": "daily-power-defense-6491",
+    "slug": "zo-daily-power-defense",
     "name": "Daily Power Defense – 50 ml",
     "brand": "ZO Skin Health",
     "price": 137.98,
@@ -473,11 +484,12 @@
     "benefits": "• Clinically proven to defend skin against oxidative stress and premature ageing\n• Exclusive ZPOLY™ plant-derived polysaccharide complex hydrates and extends barrier longevity\n• Specialised enzymatic DNA repair complex (Ultrasomes and Roxisomes) accelerates cellular recovery\n• Strengthens skin's structural integrity, restoring resilience, density, and radiant youthfulness",
     "safetyInfo": "For external use only. Store away from direct sunlight at room temperature. Safe during pregnancy and lactation.",
     "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
-    "mostLovedOrder": 3
+    "mostLovedOrder": 3,
+    "legacySlug": "daily-power-defense-6491"
   },
   {
     "id": "6498",
-    "slug": "illuminating-aox-serum-6498",
+    "slug": "zo-illuminating-aox-serum",
     "name": "Illuminating AOX Serum – 50 ml",
     "brand": "ZO Skin Health",
     "price": 158.98,
@@ -511,11 +523,12 @@
     "ingredients": "• ZOX12®: 12-hour continuous release antioxidant defence (Vitamins A, C, E)\n• ZO-RRS2®: Plant stem cell complex (Leontopodium Alpinum & Marrubium Vulgare) neutralising redness\n• ZPOLY™: Polysaccharide complex for cellular barrier health\n• Specialised Micro-Minerals: Provide immediate illuminating, light-reflecting soft-focus finish",
     "benefits": "• Concentrated morning antioxidant serum providing advanced all-day environmental protection\n• Exclusive ZPOLY™ and ZO-RRS2® complexes neutralise inflammatory cascades\n• Delivers a soft-focus, radiant finish that instantly blurs imperfections and enhances natural glow\n• Protects against premature signs of ageing caused by pollution and HEV blue light",
     "safetyInfo": "For external use only. Avoid contact with eyes. Recommended for morning daytime use.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "illuminating-aox-serum-6498"
   },
   {
     "id": "6501",
-    "slug": "growth-factor-serum-6501",
+    "slug": "zo-growth-factor-serum",
     "name": "Growth Factor Serum – 30 ml",
     "brand": "ZO Skin Health",
     "price": 158.98,
@@ -555,11 +568,12 @@
     "ingredients": "• Disodium Acetyl Glucosamine Phosphate & Fermented Red Ginseng Extract: Enzymatic growth factors stimulating cellular regeneration\n• ZPRO®: Exclusive biomimetic protein and buddleja stem cell complex supporting structural collagen synthesis\n• Beta-Glucan: Soothes and comforts vulnerable ageing skin\n• Dipeptide Diaminobutyroyl Benzylamide Diacetate: Peptides relaxing expression lines",
     "benefits": "• Clinically proven to enhance overall skin appearance, density, and elasticity\n• Plant and enzymatically derived growth factors trigger cellular synthesis and collagen production\n• ZPRO® complex stimulates hyaluronic acid production and supports youthful skin volume\n• Gentle, lightweight gel formula suitable for all skin types, including sensitive skin",
     "safetyInfo": "For external use only. Avoid contact with eyes. Store in a cool, dark place.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "growth-factor-serum-6501"
   },
   {
     "id": "6508",
-    "slug": "peptide-facial-refining-concentrate-6508",
+    "slug": "zo-peptide-facial-refining-concentrate",
     "name": "Peptide Facial Refining Concentrate – 30 ml",
     "brand": "ZO Skin Health",
     "price": 252,
@@ -601,11 +615,12 @@
     "ingredients": "• Oligopeptide & Polypeptide Complex: Promotes collagen and elastin synthesis\n• Plant Stem Cell Extracts: Neutralise oxidative stress and environmental damage\n• Sodium Hyaluronate: Plumps fine lines with moisture\n• Phospholipids: Repair lipid barrier architecture",
     "benefits": "• High-performance concentrated peptide solution targeting loss of firmness and skin tone\n• Accelerates structural protein regeneration to visibly tighten skin contours\n• Improves epidermal hydration and refines surface skin texture\n• Smooths fine expression lines and revitalises tired-looking skin",
     "safetyInfo": "For external use only. Discontinue use if signs of rash or irritation develop.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "peptide-facial-refining-concentrate-6508"
   },
   {
     "id": "6516",
-    "slug": "firming-serum-6516",
+    "slug": "zo-firming-serum",
     "name": "Firming Serum – 47 ml",
     "brand": "ZO Skin Health",
     "price": 232.78,
@@ -637,11 +652,12 @@
     "ingredients": "• ZCORE™ Complex: Biomimetic tetrapeptide and sweet yellow clover extract that reinforce DEJ anchoring fibrils\n• Sodium DNA: Marine-derived DNA revitalising cellular regeneration and fibroblast synthesis\n• Leontopodium Alpinum (Edelweiss) Stem Cells: High-potency antioxidant protecting against collagen breakdown\n• Glycerin: Restores moisture and smooths skin surface",
     "benefits": "• Breakthrough anti-ageing formulation designed specifically to visibly tighten and firm sagging skin\n• ZCORE™ complex targets anchoring fibrils (Collagen VII) to restore dermal-epidermal junction (DEJ) structural integrity\n• Sodium DNA supports healthy fibroblast activity and dermal matrix regeneration\n• Clinically proven to improve the appearance of skin sagging, jowl definition, and elasticity",
     "safetyInfo": "For external use only. Avoid contact with eyes. If irritation occurs, wash off and consult your clinician.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "firming-serum-6516"
   },
   {
     "id": "6519",
-    "slug": "wrinkle-texture-6519",
+    "slug": "zo-wrinkle-texture-repair-0-5-retinol",
     "name": "Wrinkle + Texture Repair (0.5% Retinol) – 50 ml",
     "brand": "ZO Skin Health",
     "price": 153.58,
@@ -676,11 +692,12 @@
     "benefits": "• High-potency 0.5% microemulsion retinol penetrates deeply into the dermis to remodel structural proteins\n• Stimulates natural collagen and hyaluronic acid production, visibly softening deep wrinkles\n• Reverses severe textural roughness, smoothing and refining skin surface\n• Strengthens skin barrier function and restores dermal elasticity",
     "safetyInfo": "WARNING: High-potency retinol. Expect anticipated retinoid reaction (redness, flaking, dryness). Daily broad-spectrum SPF 50 is MANDATORY. Strictly CONTRAINDICATED during pregnancy and breastfeeding.",
     "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
-    "mostLovedOrder": 4
+    "mostLovedOrder": 4,
+    "legacySlug": "wrinkle-texture-6519"
   },
   {
     "id": "6522",
-    "slug": "radical-night-retinol-6522",
+    "slug": "zo-radical-night-repair-1-retinol",
     "name": "Radical Night Repair (1% Retinol) – 60 ml",
     "brand": "ZO Skin Health",
     "price": 154.08,
@@ -713,11 +730,12 @@
     "ingredients": "• High-Concentration Pure Retinol (1.0%): Encapsulated in oleosomes to optimise penetration and efficacy\n• Vitamins C and E: Provide synergistic antioxidant protection\n• Helianthus Annuus (Sunflower) Seed Oil & Rosemary Leaf Extract: Anti-inflammatory botanical soothing agents\n• Plukenetia Volubilis Seed Oil: Rich in omega-3 fatty acids for barrier replenishment",
     "benefits": "• Ultra-potent 1% pure retinol formulated in advanced oleosome delivery system for targeted nocturnal release\n• Accelerates epidermal turnover to dramatically fade stubborn pigmentation and age spots\n• Stimulates profound neocollagenesis to firm skin and diminish deep wrinkles\n• Provides intensive antioxidant defence against nocturnal environmental recovery stressors",
     "safetyInfo": "MAXIMUM POTENCY RETINOL. Anticipate pronounced peeling, dryness, and redness. Broad-spectrum SPF 50 required daily. STRICTLY CONTRAINDICATED IN PREGNANCY AND NURSING.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "radical-night-retinol-6522"
   },
   {
     "id": "6525",
-    "slug": "10-vitamin-c-self-activating-6525",
+    "slug": "zo-10-vitamin-c-self-activating",
     "name": "10% Vitamin C Self-Activating – 50 ml",
     "brand": "ZO Skin Health",
     "price": 98.38,
@@ -751,11 +769,12 @@
     "ingredients": "• Pure L-Ascorbic Acid (10.0%): Exfoliates surface pigment and triggers new collagen production\n• Tetrahexyldecyl Ascorbate: Lipid-soluble Vitamin C penetrating deeper dermal layers\n• Ubiquinone (Coenzyme Q10) & Vitamin E: Synergistic antioxidants neutralising environmental free radicals\n• Squalane: Mimics skin's natural sebum to prevent trans-epidermal water loss",
     "benefits": "• Anhydrous (water-free) formula self-activates upon contact with skin's natural moisture for maximum potency\n• 10% pure L-ascorbic acid rapidly exfoliates surface pigmentation for a brighter, more uniform complexion\n• Second lipid-soluble form of Vitamin C (THD Ascorbate) penetrates deeper to inhibit new melanin synthesis\n• Smooth velvet matte finish protects against environmental stressors and free-radical cascades",
     "safetyInfo": "For external use only. A mild tingling sensation may occur. Store in a cool, dry environment with cap tightly sealed. Use broad-spectrum sunscreen daily.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "10-vitamin-c-self-activating-6525"
   },
   {
     "id": "6528",
-    "slug": "exfoliation-accelerator-6528",
+    "slug": "zo-exfoliation-accelerator",
     "name": "Exfoliation Accelerator – 50 ml",
     "brand": "ZO Skin Health",
     "price": 76.78,
@@ -788,11 +807,12 @@
     "ingredients": "• Glycolic & Lactic Acid Complex (10.0%): Synergistic AHA blend dissolving intercellular bonds and dead corneocytes\n• Aloe Barbadensis Leaf Juice & Green Tea Extract: Calms, cools, and soothes skin during AHA action\n• Chamomilla Recutita (Matricaria) Flower Extract: Anti-inflammatory botanical soothing erythema\n• Safflower Seed Oil: Nourishing lipids preventing barrier stripping",
     "benefits": "• 10% dual AHA concentration (Glycolic & Lactic acid) gently accelerates epidermal cell turnover\n• Removes dead superficial cells, clearing clogged pores and revealing luminous fresh skin\n• Enhances the efficacy and penetration of active corrective treatment serums\n• Calming botanical blend soothes skin and minimises irritation during chemical exfoliation",
     "safetyInfo": "Sunburn Alert: Contains Alpha Hydroxy Acids (AHAs) that increase sun sensitivity. Daily sunscreen application is mandatory. Discontinue if persistent irritation occurs.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "exfoliation-accelerator-6528"
   },
   {
     "id": "6531",
-    "slug": "instant-pore-refiner-6531",
+    "slug": "zo-instant-pore-refiner",
     "name": "Instant Pore Refiner – 29 g",
     "brand": "ZO Skin Health",
     "price": 62.38,
@@ -825,11 +845,12 @@
     "ingredients": "• Rosa Canina (Dog Rose) Fruit Extract: Balances surface sebum and visibly tightens pore diameters\n• Salicyloyl Phytosphingosine: Exfoliates dead cells around pore margins to prevent clogging\n• ZOX12®: Continuous antioxidant complex defending against environmental stressors\n• Jojoba Esters: Lightweight conditioning without comedogenicity",
     "benefits": "• Clinically proven to minimise the size and appearance of enlarged pores\n• Eliminates surface shine and provides an immediate matte, velvety finish\n• Refines coarse skin texture, leaving pores smoothed and unclogged\n• Prevents future congestion and defends against environmental photo-oxidants",
     "safetyInfo": "For external use only. Avoid contact with eyes. Discontinue use if signs of irritation occur.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "instant-pore-refiner-6531"
   },
   {
     "id": "6534",
-    "slug": "enzymatic-peel-6534",
+    "slug": "zo-enzymatic-peel",
     "name": "Enzymatic Peel – 50 ml",
     "brand": "ZO Skin Health",
     "price": 62.38,
@@ -863,11 +884,12 @@
     "ingredients": "• Papain & Bromelain: Natural fruit enzymes dissolving dead surface keratinocytes\n• Glycolic Acid: Gentle AHA accelerating cellular shedding\n• Diglycerin & Safflower Seed Oil: Essential fatty acids and humectants preserving barrier moisture\n• Brassica Oleracea Italica (Broccoli) Extract: Antioxidant soothing agent",
     "benefits": "• Resurfaces rough, dull, and dehydrated skin without physical abrasion or downtime\n• Papain and bromelain fruit enzymes digest dead keratin proteins while glycolic acid exfoliates\n• Restores healthy epidermal barrier lipids and replenishes hydration\n• Leaves skin silky smooth, even-toned, and visibly revitalised",
     "safetyInfo": "For external use only. Use broad-spectrum sunscreen daily. Avoid direct contact with eyes.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "enzymatic-peel-6534"
   },
   {
     "id": "6537",
-    "slug": "brightalive-6537",
+    "slug": "zo-brightalive-skin-brightener",
     "name": "Brightalive® Skin Brightener – 50 ml",
     "brand": "ZO Skin Health",
     "price": 129.58,
@@ -908,11 +930,12 @@
     "ingredients": "• Tranexamic Acid: Clinically inhibits UV-induced plasmin activity and melanin synthesis pathways\n• Niacinamide (Vitamin B3): Blocks melanosome transfer to keratinocytes and calms erythema\n• Papain: Enzymatic exfoliation clearing existing surface pigment\n• Diglucosyl Gallic Acid: Biomimetic brightener inhibiting tyrosinase",
     "benefits": "• Clinically proven non-retinol, non-hydroquinone skin brightening technology\n• Tranexamic acid and niacinamide target multi-stage melanogenesis to reduce stubborn dark spots\n• Intelligently brightens uneven tone while leaving skin luminous, calm, and hydrated\n• Safe for continuous daily use throughout the entire year, including summer months",
     "safetyInfo": "Non-hydroquinone formula. Safe for long-term daily use without cycling. For external use only. Wear daily SPF 50.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "brightalive-6537"
   },
   {
     "id": "6544",
-    "slug": "retinol-skin-brightener-1-6544",
+    "slug": "zo-retinol-skin-brightener-1",
     "name": "Retinol Skin Brightener 1% – 50 ml",
     "brand": "ZO Skin Health",
     "price": 129.58,
@@ -946,11 +969,12 @@
     "ingredients": "• High-Potency Pure Retinol (1.0%): Oleosome delivery accelerates targeted pigment dispersion\n• Acetyl Glucosamine (NeoGlucosamine): Synergistic exfoliator clearing melanin deposits\n• Bakuchiol: Plant-derived active that complements retinol activity while calming redness\n• Prunus Armeniaca (Apricot) Kernel Oil: Essential fatty acids supporting lipid barrier",
     "benefits": "• Maximum strength 1% oleosome-encapsulated retinol provides rapid pigment clearance\n• Breaks up existing melanin clusters and promotes rapid epidermal cell turnover\n• Bakuchiol and calming botanicals enhance tolerability and barrier comfort\n• Restores extraordinary clarity, radiance, and even tone to resistant, heavily discolored skin",
     "safetyInfo": "HIGH CONCENTRATION RETINOL. Anticipated retinoid reaction will occur. Mandatory broad-spectrum SPF 50 daily. STRICTLY CONTRAINDICATED IN PREGNANCY AND NURSING.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "retinol-skin-brightener-1-6544"
   },
   {
     "id": "6548",
-    "slug": "retinol-skin-brightener-0-5-6548",
+    "slug": "zo-retinol-skin-brightener-0-5",
     "name": "Retinol Skin Brightener 0.5% – 50 ml",
     "brand": "ZO Skin Health",
     "price": 130.08,
@@ -984,11 +1008,12 @@
     "ingredients": "• Encapsulated Pure Retinol (0.5%): Breaks up existing pigmentation and speeds epidermal renewal\n• Acetyl Glucosamine: Inhibits melanin transfer and clarifies dull surface cells\n• Bakuchiol & Prunus Armeniaca Kernel Oil: Calms redness and replenishes hydration\n• Ascorbyl Glucoside: Stable Vitamin C derivative supporting luminous tone",
     "benefits": "• Mid-strength 0.5% oleosome retinol balances potent pigment correction with manageable tolerability\n• Targets skin discolouration and age spots while accelerating cellular turnover\n• Improves skin texture, firmness, and overall radiance\n• Features bakuchiol and conditioning agents to soothe anticipated peeling",
     "safetyInfo": "Retinoid reaction (redness, flaking) is expected during initial weeks. Daily broad-spectrum SPF 50 is mandatory. CONTRAINDICATED IN PREGNANCY AND BREASTFEEDING.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "retinol-skin-brightener-0-5-6548"
   },
   {
     "id": "6550",
-    "slug": "retinol-skin-brightener-0-25-6550",
+    "slug": "zo-retinol-skin-brightener-0-25",
     "name": "Retinol Skin Brightener 0.25% – 50 ml",
     "brand": "ZO Skin Health",
     "price": 125.4,
@@ -1022,11 +1047,12 @@
     "ingredients": "• Encapsulated Pure Retinol (0.25%): Gentle cellular renewal and melanin dispersal\n• Acetyl Glucosamine: Smooths texture and brightens tone\n• Bakuchiol: Antioxidant botanical calming redness\n• Vitamin C (Ascorbyl Glucoside): Promotes radiant complexion",
     "benefits": "• Gentle 0.25% retinol concentration ideal for first-time retinoid users or delicate skin\n• Gradually reduces the appearance of mild dark spots and dullness with minimal irritation\n• Gently refines skin texture and boosts natural cellular regeneration\n• Builds skin tolerance before stepping up to higher retinol concentrations",
     "safetyInfo": "Mild peeling or redness may occur. Broad-spectrum SPF 50 required during daytime. CONTRAINDICATED IN PREGNANCY.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "retinol-skin-brightener-0-25-6550"
   },
   {
     "id": "6552",
-    "slug": "rozatrol-6552",
+    "slug": "zo-rozatrol",
     "name": "Rozatrol® – 50 ml",
     "brand": "ZO Skin Health",
     "price": 100.84,
@@ -1070,11 +1096,12 @@
     "ingredients": "• ZO-RRS2® Complex: Exclusive stem cell blend (Leontopodium Alpinum & Marrubium Vulgare) neutralising oxidative vascular stress\n• Lactose & Milk Protein: Calms inflammation and reduces skin reactivity\n• Papain: Ultra-gentle micro-enzymatic exfoliation for rough rosacea texture\n• Hydrolyzed Algin: Restores cellular communication and balances sebum production",
     "benefits": "• Clinically formulated treatment serum for red, sensitised, and rosacea-prone skin\n• Exclusive ZO-RRS2® plant stem cell complex calms visible erythema and inflammation\n• Dual-action enzymatic exfoliation gently smooths rough texture without mechanical irritation\n• Restores cellular hydration, normalises excess surface sebum, and repairs vascular barrier stability",
     "safetyInfo": "For external use only. Formulated specifically for sensitive, rosacea-prone skin. Avoid direct contact with eyes.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "rozatrol-6552"
   },
   {
     "id": "6561",
-    "slug": "sunscreen-primer-broad-spectrum-spf-30-6561",
+    "slug": "zo-sunscreen-primer-spf-30",
     "name": "Sunscreen + Primer SPF 30 – 30 ml",
     "brand": "ZO Skin Health",
     "price": 64.78,
@@ -1106,11 +1133,12 @@
     "ingredients": "• Titanium Dioxide (8.2%): Broad-spectrum physical mineral sunscreen reflecting UVA/UVB rays\n• Fractionated Melanin: Shields skin from damaging high-energy visible (HEV) blue light\n• ZOX12®: Exclusive 12-hour continuous release antioxidant complex\n• Silicones (Dimethicone / Cyclopentasiloxane): Provide pore-smoothing velvety primer base",
     "benefits": "• Triple-Spectrum Protection® defends against UVA, UVB, HEV blue light, and infrared rays\n• Silky, non-greasy primer texture blurs pores, fine lines, and imperfections\n• Universal sheer tint flatters virtually all skin tones with a soft matte finish\n• Can be worn alone or under makeup as an exceptional cosmetic primer",
     "safetyInfo": "For external use only. Do not use on damaged or broken skin. Keep out of eyes; rinse with water to remove. Spending time in the sun increases risk of skin cancer and early ageing.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "sunscreen-primer-broad-spectrum-spf-30-6561"
   },
   {
     "id": "6564",
-    "slug": "smart-tone-broad-spectrum-spf-50-6564",
+    "slug": "zo-smart-tone-broad-spectrum-spf-50",
     "name": "Smart Tone Broad-Spectrum SPF 50 – 45 ml",
     "brand": "ZO Skin Health",
     "price": 67.18,
@@ -1144,11 +1172,12 @@
     "benefits": "• Triple-Spectrum Protection® against UVA, UVB, blue light (HEV), and infrared-A radiation\n• Patented colour-burst beads release customisable pigments that self-adjust to match any skin tone\n• Inhibits free radical damage and soothes redness with exclusive ZOX12® antioxidants\n• Water and sweat resistant for up to 80 minutes",
     "safetyInfo": "For external use only. Keep out of eyes. Rinse thoroughly with water if contact occurs. Water resistant (80 minutes).",
     "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
-    "mostLovedOrder": 5
+    "mostLovedOrder": 5,
+    "legacySlug": "smart-tone-broad-spectrum-spf-50-6564"
   },
   {
     "id": "6568",
-    "slug": "daily-sheer-broad-spectrum-spf-50-6568",
+    "slug": "zo-daily-sheer-broad-spectrum-spf-50",
     "name": "Daily Sheer Broad-Spectrum SPF 50 – 45 ml",
     "brand": "ZO Skin Health",
     "price": 64.78,
@@ -1181,11 +1210,12 @@
     "ingredients": "• Chemical Broad-Spectrum Filters: Shield against UVA and UVB rays\n• Fractionated Melanin: Blocks high-energy visible (HEV) blue light\n• ZOX12®: Time-release antioxidant complex (Vitamins A, C, E)\n• Squalane & Moisture Lipids: Replenish essential hydration without heavy shine",
     "benefits": "• Triple-Spectrum Protection® against UVA, UVB, HEV blue light, and infrared radiation\n• Non-greasy, ultra-lightweight formulation dries quickly to a sheer matte finish\n• Water and perspiration resistant for up to 80 minutes\n• ZOX12® antioxidant complex neutralises environmental free radicals and prevents photoageing",
     "safetyInfo": "For external use only. Avoid contact with eyes. If swallowed, seek medical assistance immediately.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "daily-sheer-broad-spectrum-spf-50-6568"
   },
   {
     "id": "6571",
-    "slug": "sheer-fluid-broad-spectrum-sunscreen-spf-50-6571",
+    "slug": "zo-sheer-fluid-broad-spectrum-spf-50",
     "name": "Sheer Fluid Broad-Spectrum SPF 50 – 50 ml",
     "brand": "ZO Skin Health",
     "price": 64.78,
@@ -1218,11 +1248,12 @@
     "ingredients": "• Titanium Dioxide & Zinc Oxide: 100% physical mineral filters deflecting damaging UV rays\n• ZOX12® Complex: 12-hour antioxidant protection neutralising free radicals\n• Bisabolol: Clinically calms skin and diminishes redness\n• Melanin: HEV blue light shielding",
     "benefits": "• Ultra-fluid 100% mineral sunscreen formula that provides weightless, invisible protection\n• Shields against UVA, UVB, HEV blue light, and infrared-A radiation\n• Dries completely invisible on all Fitzpatrick skin types without chalky white residue\n• Fragrance-free and gentle on delicate post-procedure skin",
     "safetyInfo": "For external use only. Shake vigorously prior to each application. Avoid contact with eyes.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "sheer-fluid-broad-spectrum-sunscreen-spf-50-6571"
   },
   {
     "id": "6574",
-    "slug": "broad-spectrum-sunscreen-spf-50-6574",
+    "slug": "zo-broad-spectrum-suncream-spf-50",
     "name": "Broad-Spectrum Suncream SPF 50 – 118 g",
     "brand": "ZO Skin Health",
     "price": 55.66,
@@ -1254,11 +1285,12 @@
     "ingredients": "• Titanium Dioxide & Zinc Oxide: Non-chemical physical sunscreening minerals\n• ZOX12®: Encapsulated antioxidant complex\n• Beta-Glucan: Comforts and soothes inflamed, compromised, or sensitised skin\n• Glycerin & Erythritol: Intensive hydration agents",
     "benefits": "• Non-irritating physical mineral sunscreen specially engineered for sensitive and post-procedure skin\n• Triple-Spectrum Protection® defends against UVA, UVB, HEV blue light, and infrared-A rays\n• Calms and hydrates skin while reinforcing compromised barrier function\n• Awarded the Skin Cancer Foundation Daily Use Seal of Recommendation",
     "safetyInfo": "For external use only. Safe for post-laser, chemical peel, and micro-needling recovery once skin has closed. Keep out of eyes.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "broad-spectrum-sunscreen-spf-50-6574"
   },
   {
     "id": "6577",
-    "slug": "sunscreen-powder-broad-spectrum-refill-spf-45-6577",
+    "slug": "zo-sunscreen-powder-spf-30-refill",
     "name": "Sunscreen + Powder SPF 30 REFILL – 2.7 g",
     "brand": "ZO Skin Health",
     "price": 55.66,
@@ -1290,11 +1322,12 @@
     "ingredients": "• Zinc Oxide (25.0%): Pure physical sun barrier reflecting UVA and UVB radiation\n• Fractionated Melanin: Guards against high-energy visible (HEV) blue light from screens and daylight\n• ZOX12®: Antioxidant complex combating infrared and free radical stress\n• Jojoba Seed Oil & Bisabolol: Prevents powdery dryness and conditions skin",
     "benefits": "• High-potency 25% Zinc Oxide mineral powder provides portable broad-spectrum UVA/UVB defence\n• Absorbs surface oil and minimises breakthrough shine throughout the day\n• Ultra-soft bristles deliver buildable sheer coverage with light-reflecting minerals for a natural glow\n• Convenient on-the-go brush applicator for reapplication directly over makeup",
     "safetyInfo": "For external use only. Avoid inhalation of powder. Keep out of reach of children. Store in dry place.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "sunscreen-powder-broad-spectrum-refill-spf-45-6577"
   },
   {
     "id": "6580",
-    "slug": "renewal-cr-me-6580",
+    "slug": "zo-renewal-creme",
     "name": "Renewal Crème – 50 ml",
     "brand": "ZO Skin Health",
     "price": 110.38,
@@ -1327,11 +1360,12 @@
     "ingredients": "• Sodium Hyaluronate & Jojoba Esters: Lightweight humectants restoring lipid balance\n• Avena Sativa (Oat) Kernel Extract: Anti-inflammatory botanical soothing erythema\n• Plankton Extract: Supports cellular DNA health and barrier recovery\n• Ectoin: Shields cellular membranes from environmental stress",
     "benefits": "• Clinically proven lightweight daily hydrator that repairs and replenishes skin barrier moisture\n• Calms redness and soothes irritation with specialised oat extract and plankton\n• Promotes natural epidermal repair and minimises the appearance of fine dry lines\n• Restores suppleness without clogging pores or leaving oily heaviness",
     "safetyInfo": "For external use only. Non-comedogenic. Safe for daily use across all skin types.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "renewal-cr-me-6580"
   },
   {
     "id": "6583",
-    "slug": "recovery-cr-me-6583",
+    "slug": "zo-recovery-creme",
     "name": "Recovery Crème – 50 ml",
     "brand": "ZO Skin Health",
     "price": 119.38,
@@ -1366,11 +1400,12 @@
     "ingredients": "• Ceramide NG & Squalane: Biomimetic lipids repairing cracked, dehydrated barrier walls\n• Tetrapeptide-21 & Micro-dose Retinol: Stimulate collagen synthesis and dermal thickness\n• Butyrospermum Parkii (Shea) Butter: Intensive emollient softening rough patches\n• Willow Bark Extract: Natural calming agent reducing inflammatory redness",
     "benefits": "• Rich, restorative nocturnal emollient designed to deeply hydrate and repair dry, compromised skin\n• Micro-dose retinol and biomimetic tetrapeptide stimulate cellular matrix rejuvenation\n• Ceramide and squalane complex locks in moisture and rebuilds depleted lipid barrier\n• Calms redness and restores plush comfort to dry, ageing, or flaking skin",
     "safetyInfo": "Contains low-level retinol. If pregnant or breastfeeding, consult your healthcare practitioner before use. Always apply SPF 50 daily.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "recovery-cr-me-6583"
   },
   {
     "id": "6586",
-    "slug": "hydrating-cr-me-6586",
+    "slug": "zo-hydrating-creme",
     "name": "Hydrating Crème – 113 ml",
     "brand": "ZO Skin Health",
     "price": 107.98,
@@ -1403,11 +1438,12 @@
     "ingredients": "• Colloidal Oatmeal (1.0%): FDA-recognised active skin protectant soothing itching and irritation\n• ZOX12®: Exclusive antioxidant complex protecting vulnerable healing skin\n• Beta-Glucan: Accelerates barrier repair and reduces redness\n• Tetrapeptide-21: Stimulates collagen and repairs dermal architecture",
     "benefits": "• Temporarily relieves symptoms of severely dry, chapped, cracked, or eczema-prone skin\n• 1% Colloidal Oatmeal calms persistent itching, erythema, and cutaneous discomfort\n• Clinically proven to accelerate natural barrier recovery and cellular hydration\n• Awarded the National Eczema Association Seal of Acceptance",
     "safetyInfo": "For external use only. Safe for highly sensitised and eczema-prone skin. Non-irritating and fragrance-free.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "hydrating-cr-me-6586"
   },
   {
     "id": "6589",
-    "slug": "body-smoothing-cr-me-6589",
+    "slug": "zo-body-smoothing-creme",
     "name": "Body Smoothing Crème – 150 g",
     "brand": "ZO Skin Health",
     "price": 95.98,
@@ -1440,11 +1476,12 @@
     "ingredients": "• Encapsulated Retinol: Stimulates structural remodeling and softens body wrinkles\n• Papain & Saccharomyces Cerevisiae Extract: Digests rough cellular debris\n• Phospholipids & Squalane: Intensive barrier lipid restoration\n• Coenzyme Q10: Antioxidant defence against photoageing",
     "benefits": "• Advanced clinical body treatment that smooths rough, bumpy, and crepey skin\n• Dual chemical and enzymatic exfoliation clears dead cellular buildup (ideal for Keratosis Pilaris)\n• Microencapsulated retinol restores structural elasticity and firms skin contours\n• Deeply hydrates and leaves body skin velvety soft, toned, and revitalised",
     "safetyInfo": "Contains Retinol. Use sunscreen on exposed body areas. Strictly contraindicated during pregnancy.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "body-smoothing-cr-me-6589"
   },
   {
     "id": "6592",
-    "slug": "body-emulsion-6592",
+    "slug": "zo-body-emulsion",
     "name": "Body Emulsion – 240 ml",
     "brand": "ZO Skin Health",
     "price": 98.38,
@@ -1476,11 +1513,12 @@
     "ingredients": "• Retinol & Lactic Acid: Dual-action renewal smoothing crepey texture and stimulating turnover\n• Diacetyl Boldine: Inhibits tyrosinase activity to clarify hyperpigmented body zones\n• Glucosamine HCl: Accelerates epidermal exfoliation and boosts hydration\n• Phospholipids & Glycerin: Rebuild intercellular barrier lipids",
     "benefits": "• Multi-action clinical body treatment that targets hyperpigmentation and uneven skin tone\n• Lactic acid and retinol gently resurface coarse, sun-damaged body skin\n• Diacetyl boldine inhibits melanogenesis to fade dark spots on décolleté, hands, and legs\n• Deeply nourishes dry skin and restores youthful suppleness and uniform tone",
     "safetyInfo": "Contains Retinol and Lactic Acid. May increase sun sensitivity; apply daily body SPF to exposed areas. Contraindicated during pregnancy.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "body-emulsion-6592"
   },
   {
     "id": "6595",
-    "slug": "intense-eye-cr-me-6595",
+    "slug": "zo-intense-eye-creme",
     "name": "Intense Eye Crème – 15 ml",
     "brand": "ZO Skin Health",
     "price": 127.18,
@@ -1513,11 +1551,12 @@
     "ingredients": "• Retinol: Micro-dose cellular renewal engineered specifically for fragile periocular tissue\n• Palmitoyl Tripeptide-38 & Palmitoyl Tripeptide-1: Rebuild dermal matrix around orbital rim\n• Mica & Titanium Dioxide (Optical Diffusers): Instantly brighten shadowy dark circles\n• Caffeine & Arnica Montana: Stimulate microcirculation and drain puffiness",
     "benefits": "• Clinically targeted targeted anti-ageing cream for the delicate periorbital zone\n• Micro-dose retinol and advanced peptides stimulate structural collagen to smooth crow's feet\n• Specialised optical light diffusers instantly deflect light to minimise the appearance of dark circles\n• Caffeine and botanical extracts reduce under-eye puffiness and fluid congestion",
     "safetyInfo": "For external use only. Avoid direct eye contact. Contains micro-dose retinol. If mild redness develops, space applications.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "intense-eye-cr-me-6595"
   },
   {
     "id": "6598",
-    "slug": "eye-brightening-cr-me-6598",
+    "slug": "zo-eye-brightening-creme",
     "name": "Eye Brightening Crème – 15 g",
     "brand": "ZO Skin Health",
     "price": 131.4,
@@ -1549,11 +1588,12 @@
     "ingredients": "• Kojic Dipalmitate: Lipid-soluble tyrosinase inhibitor targeting periocular pigmentation\n• Caffeine & Arnica Montana Extract: Decongest puffy fluid retention and stimulate circulation\n• Optical Diffusing Micro-Minerals: Scatter light to visually camouflage dark circles\n• Sericin (Silk Protein): Boosts hyaluronic acid synthesis and improves elasticity",
     "benefits": "• Formulated specifically to target under-eye dark circles, hyperpigmentation, and shadowing\n• Kojic dipalmitate and botanical brighteners inhibit melanin production around orbital contours\n• Caffeine drains lymphatic congestion, visibly depuffing swollen eye bags\n• Soft-focus optical diffusers illuminate tired eyes immediately upon application",
     "safetyInfo": "For external use only. Avoid getting into the eyes. Discontinue use if persistent irritation develops.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "eye-brightening-cr-me-6598"
   },
   {
     "id": "6601",
-    "slug": "growth-factor-eye-serum-6601",
+    "slug": "zo-growth-factor-eye-serum",
     "name": "Growth Factor Eye Serum – 15 ml",
     "brand": "ZO Skin Health",
     "price": 127.18,
@@ -1586,11 +1626,12 @@
     "ingredients": "• Disodium Acetyl Glucosamine Phosphate & Fermented Ginseng: Enzymatic growth factors stimulating cellular vitality\n• ZPRO® Complex: Supports youthful extracellular matrix volume and elasticity\n• Dipotassium Glycyrrhizate (Licorice Root): Calms irritation and minimises dark tones\n• Neuropeptide Complex: Relaxes repetitive muscle movements softening expression lines",
     "benefits": "• Clinically proven to improve the appearance of expression lines, hollows, and periorbital laxity\n• Plant-derived growth factor technology revives cellular collagen and elastin synthesis\n• Ergonomic cooling metal applicator stimulates microcirculation and soothes fatigued, puffy eyes\n• Plumps and strengthens thin, fragile ocular skin for a noticeably rested appearance",
     "safetyInfo": "Ophthalmologist tested. Safe for contact lens wearers. For external use only. Avoid direct eye contact.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "growth-factor-eye-serum-6601"
   },
   {
     "id": "6604",
-    "slug": "soothing-hydro-mist-6604",
+    "slug": "zo-soothing-hydro-mist",
     "name": "Soothing Hydro Mist – 100 ml",
     "brand": "ZO Skin Health",
     "price": 64.8,
@@ -1635,11 +1676,12 @@
     "ingredients": "• Electrolyte & Marine Mineral Complex: Restores osmotic balance to dehydrated skin cells\n• Sodium Hyaluronate: Locks in surface hydration\n• Chamomile & Aloe Extracts: Immediate cooling and anti-redness action\n• Glycerin: Humectant support",
     "benefits": "• Instant weightless hydration and soothing relief for tight, uncomfortable, or irritated skin\n• Mineral electrolyte complex supports cell hydration and restores barrier comfort\n• Ultra-fine continuous mist refreshes skin over makeup without causing smudging\n• Protects against trans-epidermal moisture loss throughout the day",
     "safetyInfo": "For external use only. Avoid spraying directly into eyes.",
-    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight."
+    "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
+    "legacySlug": "soothing-hydro-mist-6604"
   },
   {
     "id": "6197",
-    "slug": "serum-15-6197",
+    "slug": "obagi-professional-c-serum-15",
     "name": "Professional-C® Serum 15% – 30 ml",
     "brand": "Obagi Medical",
     "price": 140,
@@ -1675,11 +1717,12 @@
     "benefits": "• High-performance daily antioxidant serum formulated with 15% pure L-ascorbic acid\n• Provides 5x greater dermal penetration compared to competitor Vitamin C formulations\n• Neutralises free radicals and defends against environmental photo-oxidative stress\n• Stimulates collagen synthesis, minimises fine lines, and noticeably brightens skin tone",
     "safetyInfo": "A mild tingling sensation may occur in initial applications. Store in a cool, dark location away from direct sunlight. Tightly recap after use. Use sunscreen daily.",
     "storage": "Store at controlled and consistent humidity and temperature not exceeding 25°C (77°F).\n\n \tKeep out of direct sunlight.\n\n \tStore in a dark, cool place after opening.\n\n \tKeep the cap on tightly when not in use.",
-    "mostLovedOrder": 9
+    "mostLovedOrder": 9,
+    "legacySlug": "serum-15-6197"
   },
   {
     "id": "6201",
-    "slug": "serum-20-6201",
+    "slug": "obagi-professional-c-serum-20",
     "name": "Professional-C® Serum 20% – 30 ml",
     "brand": "Obagi Medical",
     "price": 170,
@@ -1713,11 +1756,12 @@
     "ingredients": "• L-Ascorbic Acid (20.0%): Maximum clinical concentration of pure bio-available Vitamin C\n• Sodium Hyaluronate: Binds essential hydration to prevent surface dryness\n• Low-pH Penetration Vehicle: Guarantees rapid trans-epidermal uptake",
     "benefits": "• Highest-strength concentrated antioxidant serum delivering 20% pure L-ascorbic acid\n• Maximum defence against UV-induced oxidative damage and environmental pollution\n• Dramatically promotes collagen synthesis to firm lax skin and reduce prominent wrinkles\n• Brightens dull, weathered skin and clarifies stubborn pigmentation for maximum radiance",
     "safetyInfo": "Potent acid concentration. Not recommended for highly sensitive or rosacea-prone skin. A slight temporary tingling is normal. Store in a dark, cool place.",
-    "storage": "Store at controlled and consistent humidity and temperature not exceeding 25°C (77°F).\n\n \tKeep out of direct sunlight.\n\n \tStore in a dark, cool place after opening.\n\n \tKeep cap on tightly when not in use."
+    "storage": "Store at controlled and consistent humidity and temperature not exceeding 25°C (77°F).\n\n \tKeep out of direct sunlight.\n\n \tStore in a dark, cool place after opening.\n\n \tKeep cap on tightly when not in use.",
+    "legacySlug": "serum-20-6201"
   },
   {
     "id": "6143",
-    "slug": "c-cleansing-gel-6143",
+    "slug": "obagi-c-cleansing-gel",
     "name": "Obagi-C® C-Cleansing Gel – 177 ml",
     "brand": "Obagi Medical",
     "price": 55,
@@ -1751,11 +1795,12 @@
     "ingredients": "• L-Ascorbic Acid: Pure Vitamin C delivering antioxidant support during cleansing\n• Oat Amino Acids: Gentle surfactant conditioning skin lipids\n• Aloe Barbadensis Leaf Juice & Chamomile: Calms and prevents tightness\n• Medicago Sativa (Alfalfa) Extract: Botanical antioxidant",
     "benefits": "• Clarifying gel cleanser that effectively removes daily makeup, excess oils, and micro-pollutants\n• Infused with pure L-ascorbic acid to prepare the skin for optimal antioxidant absorption\n• Oat amino acids cleanse gently without stripping skin's natural moisture barrier\n• Leaves complexion feeling clean, conditioned, and revitalised",
     "safetyInfo": "For external use only. Keep out of eyes. If contact occurs, rinse thoroughly with cool water.",
-    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−25°C (59°−77°F)."
+    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−25°C (59°−77°F).",
+    "legacySlug": "c-cleansing-gel-6143"
   },
   {
     "id": "6147",
-    "slug": "balancing-toner-6147",
+    "slug": "obagi-c-balancing-toner",
     "name": "Obagi-C® C-Balancing Toner – 198 ml",
     "brand": "Obagi Medical",
     "price": 55,
@@ -1789,11 +1834,12 @@
     "ingredients": "• Hamamelis Virginiana (Witch Hazel): Natural astringent balancing sebum and toning pores\n• Aloe Barbadensis Leaf Juice: Hydrates and prevents post-cleansing irritation\n• Sodium PCA: Humectant binding moisture to surface skin cells\n• Ascorbyl Glucoside: Vitamin C antioxidant derivative",
     "benefits": "• Specifically formulated to balance skin's physiological pH in normal to oily skin types\n• Removes excess surface oils and residual impurities without overdrying\n• Witch hazel refines enlarged pores and reduces surface shine\n• Aloe vera conditions and calms skin, prepping for the Obagi-C® Rx/Fx regimen",
     "safetyInfo": "For external use only. Avoid contact with eyes. Discontinue use if signs of rash or irritation appear.",
-    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−25°C (59°−77°F)."
+    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−25°C (59°−77°F).",
+    "legacySlug": "balancing-toner-6147"
   },
   {
     "id": "6155",
-    "slug": "c-exfoliating-day-lotion-6155",
+    "slug": "obagi-c-exfoliating-day-lotion",
     "name": "Obagi-C® C-Exfoliating Day Lotion – 57 ml",
     "brand": "Obagi Medical",
     "price": 80,
@@ -1825,11 +1871,12 @@
     "ingredients": "• Glycolic Acid: Alpha Hydroxy Acid (AHA) sloughing away dull dead surface cells\n• Ascorbyl Glucoside (Vitamin C): Clarifies pigmentation and stimulates collagen\n• Tocopheryl Acetate (Vitamin E): Synergistic antioxidant protection\n• Sodium Hyaluronate: Plumps fine lines with long-lasting moisture",
     "benefits": "• Smooth, lightweight day moisturiser providing continuous gentle chemical micro-exfoliation\n• Glycolic acid accelerates cellular renewal by loosening dead, dull surface corneocytes\n• Vitamins C and E neutralise environmental free radicals and brighten uneven pigmentation\n• Hyaluronic acid deeply hydrates, leaving skin soft, smooth, and radiant throughout the day",
     "safetyInfo": "Contains Alpha Hydroxy Acid (AHA) which increases sun sensitivity. Daily broad-spectrum SPF 30+ sunscreen is mandatory. Discontinue if severe irritation develops.",
-    "storage": "Keep out of direct sunlight.\n\n \tStore at room temperature 15°-30°C (59°-86°F)."
+    "storage": "Keep out of direct sunlight.\n\n \tStore at room temperature 15°-30°C (59°-86°F).",
+    "legacySlug": "c-exfoliating-day-lotion-6155"
   },
   {
     "id": "6151",
-    "slug": "fx-c-clarifying-serum-6151",
+    "slug": "obagi-c-fx-clarifying-serum",
     "name": "Obagi-C® FX C-Clarifying Serum – 30 ml",
     "brand": "Obagi Medical",
     "price": 175,
@@ -1864,11 +1911,12 @@
     "ingredients": "• Arbutin (4.0%): Natural, gentle tyrosinase inhibitor that fades dark spots and prevents new discolouration\n• L-Ascorbic Acid (10.0%): Pure Vitamin C promoting uniform radiance and antioxidant defence\n• Propylene Glycol & L-Ascorbic Acid Vehicle: Optimises trans-dermal penetration",
     "benefits": "• Patented dual-action brightening serum combining 4% Arbutin and 10% pure L-ascorbic acid\n• Non-prescription, non-hydroquinone alternative delivering significant pigment clearance\n• Arbutin inhibits tyrosinase activity to prevent and fade stubborn melasma and sun spots\n• 10% pure Vitamin C stimulates neocollagenesis and protects against oxidative stress",
     "safetyInfo": "For external use only. Store away from direct light. Do not combine with prescription hydroquinone unless directed by a physician. Use daily SPF.",
-    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−30°C (59°−86°F)."
+    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−30°C (59°−86°F).",
+    "legacySlug": "fx-c-clarifying-serum-6151"
   },
   {
     "id": "6087",
-    "slug": "foaming-gel-6087",
+    "slug": "obagi-nu-derm-foaming-gel",
     "name": "Nu-Derm® Foaming Gel – 200 ml",
     "brand": "Obagi Medical",
     "price": 60,
@@ -1906,11 +1954,12 @@
     "ingredients": "• Sodium Lauroyl Oat Amino Acids: Gentle cleansing agent derived from oats preserving natural lipids\n• Aloe Barbadensis Leaf Extract: Soothes and prevents redness\n• Chamomilla Recutita Extract: Anti-inflammatory botanical\n• Medicago Sativa (Alfalfa) Extract: Rich in phytonutrients and antioxidants",
     "benefits": "• Rich foaming cleanser formulated to deeply cleanse normal to oily skin without barrier dehydration\n• Thoroughly dissolves daily pollutants, makeup, and deep pore sebum\n• Medicago Sativa (Alfalfa) and chamomile extract calm active breakouts and reduce redness\n• Leaves skin purified, refreshed, and primed for the Nu-Derm® transformation protocol",
     "safetyInfo": "For external use only. Avoid contact with eyes. In case of eye contact, flush thoroughly with cool water.",
-    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−25°C (59°−77°F)."
+    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−25°C (59°−77°F).",
+    "legacySlug": "foaming-gel-6087"
   },
   {
     "id": "6092",
-    "slug": "gentle-cleanser-6092",
+    "slug": "obagi-nu-derm-gentle-cleanser",
     "name": "Nu-Derm® Gentle Cleanser – 200 ml",
     "brand": "Obagi Medical",
     "price": 60,
@@ -1948,11 +1997,12 @@
     "benefits": "• Mild, non-irritating lotion cleanser designed specifically for normal to dry, delicate skin\n• Clears away impurities, environmental debris, and makeup while locking in natural hydration\n• Calming botanical blend (aloe, sage, apricot) prevents post-wash tightness or redness\n• Prepares the skin surface for maximum penetration of corrective Nu-Derm® products",
     "safetyInfo": "For external use only. Avoid contact with eyes. If irritation develops, discontinue use.",
     "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−25°C (59°−77°F).",
-    "mostLovedOrder": 6
+    "mostLovedOrder": 6,
+    "legacySlug": "gentle-cleanser-6092"
   },
   {
     "id": "6097",
-    "slug": "toner-6097",
+    "slug": "obagi-nu-derm-toner",
     "name": "Nu-Derm® Toner – 198 ml",
     "brand": "Obagi Medical",
     "price": 65,
@@ -1989,11 +2039,12 @@
     "ingredients": "• Hamamelis Virginiana (Witch Hazel): Natural non-alcoholic astringent that tightens pores\n• Sodium PCA: High-potency physiological humectant binding epidermal moisture\n• Aloe Barbadensis Leaf Juice: Anti-inflammatory soothing agent\n• Calendula Officinalis Flower Extract: Calms erythema and speeds tissue comfort",
     "benefits": "• Alcohol-free, non-drying toner engineered to restore natural acidic skin pH balance\n• Witch hazel gently purifies pores and refines coarse texture without burning or stinging\n• Aloe vera and sodium PCA hydrate and calm the epidermis\n• Optimises absorption of subsequent Nu-Derm® Clear / Clear Fx and Exfoderm® steps",
     "safetyInfo": "For external use only. Avoid contact with eyes. Discontinue use if persistent irritation develops.",
-    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−25°C (59°−77°F)."
+    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−25°C (59°−77°F).",
+    "legacySlug": "toner-6097"
   },
   {
     "id": "6108",
-    "slug": "exfoderm-6108",
+    "slug": "obagi-nu-derm-exfoderm",
     "name": "Nu-Derm® Exfoderm® – 57 g",
     "brand": "Obagi Medical",
     "price": 115,
@@ -2030,11 +2081,12 @@
     "ingredients": "• Phytic Acid (3.0%): Mild, natural AHA that gently exfoliates surface corneocytes and delivers antioxidant action\n• Canola Oil: Barrier-restoring botanical lipid reducing transepidermal water loss\n• Glycerin: Humectant providing moisture balance",
     "benefits": "• Gentle daily exfoliating lotion specifically formulated for normal to dry or sensitive skin\n• Phytic acid sloughs away dead superficial skin cells without the harsh peeling of stronger acids\n• Canola oil and conditioning emollients prevent flaking and restore barrier comfort\n• Reveals a smoother, brighter, and more radiant complexion",
     "safetyInfo": "Contains Alpha Hydroxy Acid that may increase skin's sun sensitivity. Daily broad-spectrum SPF is required. For external use only.",
-    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−25°C (59°−77°F)."
+    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−25°C (59°−77°F).",
+    "legacySlug": "exfoderm-6108"
   },
   {
     "id": "6113",
-    "slug": "exfoderm-forte-6113",
+    "slug": "obagi-nu-derm-exfoderm-forte",
     "name": "Nu-Derm® Exfoderm® Forte – 57 g",
     "brand": "Obagi Medical",
     "price": 115,
@@ -2071,11 +2123,12 @@
     "ingredients": "• Glycolic Acid (6.0%): Deep-penetrating AHA breaking down stubborn superficial keratinocytes\n• Lactic Acid (4.0%): Larger molecule AHA providing dual chemical exfoliation and natural hydration\n• Glycerin & Kalaya Oil: Soothes and conditions skin during intensive acid activity",
     "benefits": "• Intensive exfoliating lotion formulated with 6% Glycolic Acid and 4% Lactic Acid\n• Potent dual-acid AHA complex aggressively dissolves cellular glue and dead surface layers\n• Promotes rapid cellular turnover, smoothing rough skin and clarifying congested pores\n• Enhances the transformative efficacy of the Nu-Derm® System for normal to oily skin types",
     "safetyInfo": "INTENSIVE AHA FORMULA. Expect initial tingling or mild peeling. Sunburn Alert: Increases sensitivity to sunlight. Broad-spectrum SPF 50 must be used daily.",
-    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−25°C (59°−77°F)."
+    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−25°C (59°−77°F).",
+    "legacySlug": "exfoderm-forte-6113"
   },
   {
     "id": "6128",
-    "slug": "clear-fx-6128",
+    "slug": "obagi-nu-derm-clear-fx",
     "name": "Nu-Derm® Clear Fx – 57 g",
     "brand": "Obagi Medical",
     "price": 130,
@@ -2111,11 +2164,12 @@
     "ingredients": "• Arbutin (7.0%): Safe, effective botanical tyrosinase inhibitor that fades existing hyperpigmentation\n• Lactic Acid: Mild AHA that smooths texture and enhances active ingredient delivery\n• L-Ascorbic Acid & Tocopheryl Acetate: Synergistic antioxidant protection\n• Glycerin & Emollients: Rebuilds barrier hydration",
     "benefits": "• Hydroquinone-free skin-brightening cream formulated with 7% Arbutin to correct discolouration\n• Visibly clarifies dark spots, sun spots, melasma, and post-inflammatory erythema\n• Non-prescription, gentle alternative to prescription 4% hydroquinone without ochronosis risk\n• Enriched with antioxidants to defend against ongoing environmental photoageing",
     "safetyInfo": "Non-hydroquinone formula. For external use only. Avoid contact with eyes. Always apply high-factor broad-spectrum sunscreen daily during treatment.",
-    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−30°C (59°−86°F)."
+    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−30°C (59°−86°F).",
+    "legacySlug": "clear-fx-6128"
   },
   {
     "id": "6308",
-    "slug": "eyebrow-boosting-serum-6308",
+    "slug": "obagi-nu-cil-eyebrow-boosting-serum",
     "name": "Nu-Cil® Eyebrow Boosting Serum – 3 ml",
     "brand": "Obagi Medical",
     "price": 135,
@@ -2152,11 +2206,12 @@
     "ingredients": "• NouriPlex® Technology: Proprietary blend of Biotin, Lipopeptides, Sodium Hyaluronate, and Panthenol\n• Biotin: Supports natural keratin production for stronger, more resilient brow hairs\n• Dehydrolatanoprost: Clinically proven lipid compound supporting anagen hair growth phase\n• Panthenol & Hyaluronic Acid: Deeply condition and lock in moisture to prevent breakage",
     "benefits": "• Clinically formulated eyebrow serum powered by proprietary NouriPlex® technology\n• Nourishes brow hair follicles to target thinning, patchy, and sparse areas\n• Promotes visibly thicker, fuller, darker, and more defined eyebrows in as little as 8 weeks\n• Dermatologist and ophthalmologist tested formula with non-irritating botanical peptides",
     "safetyInfo": "For external use only. Avoid direct contact with eyes. Discontinue use if persistent erythema occurs. Not recommended during pregnancy without medical advice.",
-    "storage": "Store at controlled room temperature: 15° C-25° C (59°  F-77° F).\n\n \tKeep out of direct sunlight."
+    "storage": "Store at controlled room temperature: 15° C-25° C (59°  F-77° F).\n\n \tKeep out of direct sunlight.",
+    "legacySlug": "eyebrow-boosting-serum-6308"
   },
   {
     "id": "6277",
-    "slug": "rejuvenating-eye-gel-cream-6277",
+    "slug": "obagi-daily-hydro-drops-rejuvenating-eye-gel-cream",
     "name": "Daily Hydro-Drops® Rejuvenating Eye Gel Cream – 15 g",
     "brand": "Obagi Medical",
     "price": 70,
@@ -2192,11 +2247,12 @@
     "ingredients": "• Isoplentix® Microfluidic Droplets: Preserves unadulterated botanical oils until application\n• Niacinamide (Vitamin B3): Calms inflammation, strengthens barrier, and brightens under-eye shadowing\n• Hibiscus & Abyssinian Oils: Rich in omega-9 and omega-6 fatty acids to deeply nourish delicate ocular tissue\n• Palmitoyl Tripeptide: Enhances collagen support around orbital contours",
     "benefits": "• Weightless hydrating eye gel-cream powered by patented Isoplentix® microfluidic technology\n• Suspends pure Hibiscus and Abyssinian oils in a hydrating gel matrix until contact with skin\n• Instantly plumps and hydrates the delicate under-eye area for up to 24 continuous hours\n• Clinically proven to reduce under-eye puffiness and smooth fine dry lines with a cooling metal applicator",
     "safetyInfo": "Ophthalmologist tested. Safe for sensitive eyes and contact lens wearers. Avoid getting inside eye.",
-    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−25°C (59°−77°F)."
+    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−25°C (59°−77°F).",
+    "legacySlug": "rejuvenating-eye-gel-cream-6277"
   },
   {
     "id": "6246",
-    "slug": "facial-serum-6246",
+    "slug": "obagi-elastiderm-facial-serum",
     "name": "ELASTIderm® Facial Serum – 30 ml",
     "brand": "Obagi Medical",
     "price": 190,
@@ -2235,11 +2291,12 @@
     "ingredients": "• Bi-Mineral Contour Complex™: Patented mineral technology that cross-links elastin precursors into resilient elastic fibres\n• Malonic Acid: Stimulates natural cellular turnover and synthesis\n• Sodium Hyaluronate: Plumps skin with weightless moisture\n• Glycerin: Barrier conditioning",
     "benefits": "• Clinically proven to promote the creation of new, functioning elastic fibres\n• Patented Bi-Mineral Contour Complex™ harnesses Zinc and Copper with Malonic Acid to restore bounce\n• Noticeably improves facial firmness, contour elasticity, and skin snap-back in 24 hours\n• Lightweight, fast-absorbing serum suitable for all skin types",
     "safetyInfo": "For external use only. Dermatologist tested. Non-comedogenic.",
-    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−25°C (59°−77°F)."
+    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−25°C (59°−77°F).",
+    "legacySlug": "facial-serum-6246"
   },
   {
     "id": "6235",
-    "slug": "eye-cream-6235",
+    "slug": "obagi-elastiderm-eye-cream",
     "name": "ELASTIderm® Eye Cream – 15 g",
     "brand": "Obagi Medical",
     "price": 120,
@@ -2277,11 +2334,12 @@
     "ingredients": "• Bi-Mineral Contour Complex™ (Copper Carbonate Hydroxide & Zinc Carbonate): Supports elastin production\n• Malonic Acid: Gentle stimulator of cellular repair\n• Vaccinium Angustifolium (Blueberry) Fruit Extract: High-potency antioxidant defending ocular collagen\n• Petrolatum & Glyceryl Stearate: Intensive emollient base locking in moisture",
     "benefits": "• Targeted firming eye cream formulated with patented Bi-Mineral Contour Complex™\n• Clinically proven to replenish elastin and stimulate collagen around the delicate eye area\n• Visibly reduces the appearance of crow's feet, wrinkles, and crepey texture in as little as two weeks\n• Rich, luxurious cream texture deeply cushions and hydrates dry periorbital skin",
     "safetyInfo": "Ophthalmologist tested. For external use only. If irritation occurs, wash off and consult clinician.",
-    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−25°C (59°−77°F)."
+    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature 15°−25°C (59°−77°F).",
+    "legacySlug": "eye-cream-6235"
   },
   {
     "id": "6252",
-    "slug": "neck-and-d-collet-concentrate-6252",
+    "slug": "obagi-elastiderm-neck-and-decollete-concentrate",
     "name": "ELASTIderm® Neck and Décolleté Concentrate – 85 g",
     "brand": "Obagi Medical",
     "price": 195,
@@ -2322,11 +2380,12 @@
     "ingredients": "• Bi-Mineral Contour Complex™: Proprietary mineral blend cross-linking elastin fibres\n• Hydroxypinacolone Retinoate: High-performance advanced direct retinoid smoothing wrinkles without typical irritation\n• Niacinamide: Brightens discolouration and calms erythema\n• Glycerin & Plant Extracts: Deep hydration for delicate neck tissue",
     "benefits": "• Revolutionary concentrated serum formulated specifically for the fragile neck and chest skin\n• Bi-Mineral Contour Complex™ restores resilient elastic fibres, lifting and firming lax contours\n• Advanced gentle retinoid accelerates epidermal renewal, smoothing horizontal lines and chest crinkles\n• Niacinamide clarifies uneven sun spots and strengthens the delicate neck barrier",
     "safetyInfo": "Contains a topical retinoid. Avoid direct sun exposure without broad-spectrum SPF 50. Contraindicated in pregnancy.",
-    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature: 15°C–25°C (59°F–77°F)."
+    "storage": "Keep out of direct sunlight.\n\n \tStore at controlled room temperature: 15°C–25°C (59°F–77°F).",
+    "legacySlug": "neck-and-d-collet-concentrate-6252"
   },
   {
     "id": "6219",
-    "slug": "daily-care-foaming-cleanser-6219",
+    "slug": "obagi-clenziderm-md-daily-care-foaming-cleanser",
     "name": "CLENZIderm M.D.® Daily Care Foaming Cleanser – 118 ml",
     "brand": "Obagi Medical",
     "price": 50,
@@ -2364,11 +2423,12 @@
     "benefits": "• Therapeutic 2% Salicylic Acid wash clears acne blemishes and unclogs congested pores\n• Formulated specifically to reach deep into follicle infundibulum to dissolve sebum\n• Menthol provides immediate soothing relief to irritated, inflamed breakouts\n• Leaves skin purified, refreshed, and primed for CLENZIderm M.D.® Pore Therapy",
     "safetyInfo": "Contains 2% Salicylic Acid. Excessive drying may occur; begin with once daily application and increase to twice daily. Use sunscreen daily.",
     "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
-    "mostLovedOrder": 10
+    "mostLovedOrder": 10,
+    "legacySlug": "daily-care-foaming-cleanser-6219"
   },
   {
     "id": "6241",
-    "slug": "eye-serum-6241",
+    "slug": "obagi-elastiderm-eye-serum",
     "name": "ELASTIderm® Eye Serum – 14 ml",
     "brand": "Obagi Medical",
     "price": 130,
@@ -2406,11 +2466,12 @@
     "benefits": "• Targeted firming eye serum with innovative rollerball applicator to depuff under-eye bags\n• Bi-Mineral Contour Complex™ promotes synthesis of healthy elastin fibres\n• Caffeine stimulates lymphatic drainage to reduce morning puffiness and congestion\n• Delivers a refreshing, cooling application that smooths and firms periorbital contours",
     "safetyInfo": "Ophthalmologist tested. For external use only. Avoid contact with inner eye mucosa.",
     "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
-    "mostLovedOrder": 8
+    "mostLovedOrder": 8,
+    "legacySlug": "eye-serum-6241"
   },
   {
     "id": "6303",
-    "slug": "eyelash-enhancing-serum-6303",
+    "slug": "obagi-nu-cil-eyelash-enhancing-serum",
     "name": "Nu-Cil® Eyelash Enhancing Serum – 3 ml",
     "brand": "Obagi Medical",
     "price": 125,
@@ -2449,11 +2510,12 @@
     "benefits": "• Clinically proven eyelash serum formulated with proprietary NouriPlex® technology\n• Nourishes lashes to target volume, density, length, and darkness\n• Visible results in as little as 8 weeks with continuous improvement up to 16 weeks\n• Physician-formulated, ophthalmologist tested, and safe for sensitive eyes",
     "safetyInfo": "Ophthalmologist tested. For external use only. Avoid getting into eye. If redness or irritation occurs, discontinue use. Not evaluated in pregnancy.",
     "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
-    "mostLovedOrder": 13
+    "mostLovedOrder": 13,
+    "legacySlug": "eyelash-enhancing-serum-6303"
   },
   {
     "id": "6259",
-    "slug": "lift-up-sculpt-facial-moisturizer-6259",
+    "slug": "obagi-elastiderm-lift-up-sculpt-facial-moisturizer",
     "name": "ELASTIderm® Lift Up & Sculpt Facial Moisturizer – 50 g",
     "brand": "Obagi Medical",
     "price": 135,
@@ -2496,11 +2558,12 @@
     "benefits": "• Luxurious sculpting cream designed to lift and redefine facial contours\n• Powered by Bi-Mineral Contour Complex™ to support cellular elastin elasticity\n• Acetyl Tetrapeptide-2 provides a visible firming and tightening effect\n• Deeply hydrates and restores skin suppleness, leaving skin visibly plumper and sculpted",
     "safetyInfo": "Dermatologist tested. For external use only. Non-comedogenic.",
     "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
-    "mostLovedOrder": 7
+    "mostLovedOrder": 7,
+    "legacySlug": "lift-up-sculpt-facial-moisturizer-6259"
   },
   {
     "id": "6224",
-    "slug": "pore-therapy-6224",
+    "slug": "obagi-clenziderm-md-pore-therapy",
     "name": "CLENZIderm M.D.® Pore Therapy – 148 ml",
     "brand": "Obagi Medical",
     "price": 55,
@@ -2539,11 +2602,12 @@
     "benefits": "• Therapeutic 2% Salicylic Acid toner that unclogs pores and clears dead skin cells\n• Penetrates deep into follicles to eliminate acne-causing bacteria and sebum\n• Menthol calms and cools irritated, blemish-inflamed skin\n• Leaves skin purified and prepares pores for CLENZIderm Therapeutic Lotion",
     "safetyInfo": "Flammable: Keep away from open fire or flame. Contains 2% BHA; use daily broad-spectrum sunscreen. If excessive peeling occurs, reduce usage.",
     "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
-    "mostLovedOrder": 11
+    "mostLovedOrder": 11,
+    "legacySlug": "pore-therapy-6224"
   },
   {
     "id": "6292",
-    "slug": "tint-broad-spectrum-spf-50-warm-6292",
+    "slug": "obagi-sun-shield-tint-spf-50-warm",
     "name": "Sun Shield™ Tint Broad Spectrum SPF 50 Warm – 85 g",
     "brand": "Obagi Medical",
     "price": 75,
@@ -2579,6 +2643,7 @@
     "benefits": "• Technologically advanced tinted sunscreen engineered specifically for warm skin undertones\n• Provides broad-spectrum defence against UVA, UVB, and infrared-A (IR) thermal radiation\n• Warm golden mineral pigments blend invisibly into olive and warm skin tones, evens complexion\n• Matte, non-greasy finish recommended by the Skin Cancer Foundation",
     "safetyInfo": "For external use only. Keep out of eyes. Rinse with water to remove.",
     "storage": "Store at controlled room temperature (15°C–30°C) away from direct sunlight.",
-    "mostLovedOrder": 12
+    "mostLovedOrder": 12,
+    "legacySlug": "tint-broad-spectrum-spf-50-warm-6292"
   }
 ]

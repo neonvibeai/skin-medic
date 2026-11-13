@@ -17,19 +17,19 @@ import {
 
 const ZO_HERO_SLIDES: Slide[] = [
   {
-    src: '/images/brands/zo-1.jpg?v=3',
+    src: '/images/brands/zo-1.jpg',
     alt: 'ZO Skin Health Clarity before and after blemish and redness transformation',
     caption: 'Clarity & Blemish Control',
     tagline: 'ZO® Skin Health Before & After'
   },
   {
-    src: '/images/brands/zo-2.jpg?v=2',
+    src: '/images/brands/zo-2.jpg',
     alt: 'ZO Skin Health clinical before and after wrinkle and texture improvement',
     caption: 'Wrinkle & Texture Renewal',
     tagline: 'ZO® Clinical Before & After Result'
   },
   {
-    src: '/images/brands/zo-3.jpg?v=2',
+    src: '/images/brands/zo-3.jpg',
     alt: 'Skin Medic patient before and after ZO Skin Health protocol',
     caption: 'Comprehensive Skin Rejuvenation',
     tagline: 'Skin Medic Patient Transformation'
@@ -130,7 +130,7 @@ export default function ZOSkinHealthBrandPage() {
                   className="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-[#0a2240] hover:bg-[#123661] text-white font-bold text-sm shadow-xl shadow-blue-950/15 hover:scale-[1.02] transition-all flex items-center justify-center gap-2"
                 >
                   <Calendar className="w-4 h-4 text-cyan-300" />
-                  Book Your ZO Consultation
+                  Free skincare consultation
                 </button>
 
                 <a

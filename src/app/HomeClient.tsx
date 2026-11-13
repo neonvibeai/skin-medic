@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { CLINIC_INFO, REVIEWS } from '@/data/siteData';
@@ -83,7 +84,7 @@ export default function HomePage() {
                   className="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-[#0a2240] hover:bg-[#123661] text-white font-bold text-sm shadow-xl shadow-blue-950/15 hover:scale-[1.02] transition-all flex items-center justify-center gap-2"
                 >
                   <Calendar className="w-4 h-4 text-cyan-300" />
-                  Book Your Free Consultation
+                  Free skincare consultation
                 </button>
 
                 <a
@@ -124,11 +125,14 @@ export default function HomePage() {
       <section className="relative overflow-hidden py-20 sm:py-28 bg-[#07192f] text-white border-b border-slate-200">
         {/* Roslyn Bolton Genuine Photo as Background for the whole section */}
         <div className="absolute inset-0 z-0">
-          <img
+          <Image
             src="/images/roslyn-bolton.jpg"
             alt="Roslyn Bolton - Skin Medic Clinical Director"
             className="w-full h-full object-cover object-[center_15%] sm:object-[right_20%] opacity-35 sm:opacity-40 filter brightness-90"
-          />
+  width={682}
+  height={1024}
+  sizes="100vw"
+/>
           {/* Subtle multi-layer gradient ensuring exceptional contrast and elegance */}
           <div className="absolute inset-0 bg-gradient-to-r from-[#06182f] via-[#06182f]/95 sm:via-[#06182f]/90 to-[#0a2240]/65" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#06182f] via-transparent to-[#06182f]/80" />
@@ -168,11 +172,14 @@ export default function HomePage() {
                 <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5">
                   {/* Roslyn Bolton Genuine Photo */}
                   <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl overflow-hidden shrink-0 border-2 border-cyan-400/60 shadow-xl ring-2 ring-white/10">
-                    <img
+                    <Image
                       src="/images/roslyn-bolton.jpg"
                       alt="Roslyn Bolton - Clinical Director"
                       className="w-full h-full object-cover"
-                    />
+  width={682}
+  height={1024}
+  sizes="200px"
+/>
                   </div>
 
                   <div className="flex-1 space-y-2 text-center sm:text-left">
@@ -208,7 +215,7 @@ export default function HomePage() {
                         onClick={() => openConsultation('Personal Skincare Assessment with Roslyn')}
                         className="px-4 py-2.5 rounded-xl bg-white/15 hover:bg-white/25 text-white font-semibold text-xs border border-white/20 transition text-center"
                       >
-                        Book Consultation
+                        Free skincare consultation
                       </button>
                     </div>
                   </div>
@@ -402,7 +409,7 @@ export default function HomePage() {
               className="px-7 py-3 rounded-xl bg-[#0a2240] hover:bg-[#123661] text-white font-semibold text-xs uppercase tracking-wider transition shadow-md flex items-center gap-2"
             >
               <Calendar className="w-4 h-4 text-cyan-300" />
-              Book Treatment Consultation
+              Book a treatment
             </a>
             <Link
               href="/treatments"
@@ -593,11 +600,14 @@ export default function HomePage() {
       <section className="relative overflow-hidden py-24 sm:py-28 bg-slate-100 text-white">
         {/* Background Image: Full-brightness Video Consultation Photo */}
         <div className="absolute inset-0 z-0">
-          <img
+          <Image
             src="/images/video-consultation.jpg"
             alt="Free video consultation with a Skin Medic skin specialist"
             className="w-full h-full object-cover object-center opacity-100"
-          />
+  width={1024}
+  height={682}
+  sizes="(max-width: 1024px) 100vw, 50vw"
+/>
           {/* Very light, airy contrast veil so the background photo remains bright and clearly visible */}
           <div className="absolute inset-0 bg-[#0a2240]/15" />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0a2240]/30 via-transparent to-[#0a2240]/35" />
@@ -742,11 +752,14 @@ export default function HomePage() {
               {/* Circular Portrait of Roslyn Bolton */}
               <div className="order-2 md:order-1 shrink-0">
                 <div className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full overflow-hidden shadow-xl ring-4 ring-white border-2 border-blue-200">
-                  <img
+                  <Image
                     src="/images/roslyn-bolton.jpg"
                     alt="Roslyn Bolton"
                     className="w-full h-full object-cover object-top"
-                  />
+  width={682}
+  height={1024}
+  sizes="300px"
+/>
                 </div>
               </div>
 
@@ -870,11 +883,14 @@ export default function HomePage() {
               {/* Mel */}
               <div className="bg-slate-50 rounded-2xl p-6 border border-slate-200/60 flex flex-col sm:flex-row gap-5 items-center">
                 <div className="w-full sm:w-44 h-56 sm:h-48 rounded-xl overflow-hidden shrink-0 border border-slate-200 shadow-sm">
-                  <img
+                  <Image
                     src="/images/mel.jpg"
                     alt="Mel - Skin Medic Patient"
                     className="w-full h-full object-cover object-[center_20%]"
-                  />
+  width={682}
+  height={1024}
+  sizes="300px"
+/>
                 </div>
                 <div className="flex-1 space-y-2">
                   <div className="flex items-center justify-between">
@@ -903,11 +919,14 @@ export default function HomePage() {
               {/* Andras */}
               <div className="bg-slate-50 rounded-2xl p-6 border border-slate-200/60 flex flex-col sm:flex-row gap-5 items-center">
                 <div className="w-full sm:w-44 h-56 sm:h-48 rounded-xl overflow-hidden shrink-0 border border-slate-200 shadow-sm">
-                  <img
+                  <Image
                     src="/images/andras.jpg"
                     alt="Andras - Skin Medic Patient"
                     className="w-full h-full object-cover object-[center_18%]"
-                  />
+  width={682}
+  height={1024}
+  sizes="300px"
+/>
                 </div>
                 <div className="flex-1 space-y-2">
                   <div className="flex items-center justify-between">
@@ -952,7 +971,7 @@ export default function HomePage() {
               onClick={() => openConsultation()}
               className="px-8 py-3.5 rounded-xl bg-cyan-400 hover:bg-cyan-300 text-slate-950 font-bold text-sm shadow-xl transition"
             >
-              Book Your Free Consultation
+              Free skincare consultation
             </button>
             <a
               href={CLINIC_INFO.whatsappUrl}

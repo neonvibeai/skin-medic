@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { CLINIC_INFO } from '@/data/siteData';
@@ -71,11 +72,14 @@ export default function Footer() {
           {/* Col 1: Brand & Founder */}
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
-              <img
+              <Image
                 src="/images/skin-medic-logo.png"
                 alt="Skin Medic Logo"
                 className="h-10 w-auto object-contain brightness-110 drop-shadow-sm"
-              />
+  width={250}
+  height={250}
+  sizes="40px"
+/>
               <div>
                 <span className="font-serif font-bold text-lg text-white block">
                   Skin Medic Skin Care
@@ -147,7 +151,7 @@ export default function Footer() {
             <ul className="space-y-2 text-xs">
               <li>
                 <button onClick={() => openConsultation()} className="text-cyan-300 hover:underline text-left">
-                  Book Free Video Consultation
+                  Free skincare consultation
                 </button>
               </li>
               <li>

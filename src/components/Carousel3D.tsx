@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import React, { useState, useEffect, useRef, useSyncExternalStore } from 'react';
 import { ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react';
 
@@ -171,20 +172,29 @@ export default function Carousel3D({
               }}
               aria-hidden={!isCenter}
             >
-              <img
+              <Image
                 src={slide.src}
                 alt={slide.alt}
                 className="w-full h-full object-cover object-center pointer-events-none"
-              />
+  width={800}
+  height={1000}
+  sizes="(max-width: 640px) 300px, 400px"
+  preload={idx === 0}
+/>
 
-              {/* Bottom Subtle Overlay */}
+              {/* Bottom Subtle Overlay — captions only on the centre slide, so
+                  the side slides never show clipped half-words */}
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/15 to-transparent flex flex-col justify-end p-5 sm:p-6 text-white pointer-events-none">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-cyan-300">
-                  {slide.tagline}
-                </span>
-                <p className="font-serif font-bold text-base sm:text-lg text-white mt-0.5 drop-shadow-sm">
-                  {slide.caption}
-                </p>
+                {isCenter && (
+                  <>
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-cyan-300">
+                      {slide.tagline}
+                    </span>
+                    <p className="font-serif font-bold text-base sm:text-lg text-white mt-0.5 drop-shadow-sm">
+                      {slide.caption}
+                    </p>
+                  </>
+                )}
               </div>
             </div>
           );

@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import React from 'react';
 
 /**
@@ -13,11 +14,14 @@ export default function ParallaxBanner() {
     <>
       {/* Mobile version: Standard static image (parallax disabled) */}
       <div className="block md:hidden relative w-full rounded-[20px] overflow-hidden shadow-xl border border-slate-200/80 mb-10 select-none bg-[#cbb09d]">
-        <img
+        <Image
           src="/images/08_PARALLAX.jpg"
           alt="Diverse women with radiant, healthy skin"
           className="w-full h-auto block object-cover"
-        />
+  width={1024}
+  height={575}
+  sizes="100vw"
+/>
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#0a2240]/10 via-transparent to-transparent" />
         <div className="pointer-events-none absolute inset-0 rounded-[20px] ring-1 ring-inset ring-black/10" />
       </div>

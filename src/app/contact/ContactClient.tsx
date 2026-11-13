@@ -110,7 +110,7 @@ export default function ContactPage() {
                   onClick={() => openConsultation()}
                   className="w-full py-3 px-4 rounded-xl bg-[#0a2240] hover:bg-[#123661] text-white font-semibold text-xs flex items-center justify-center gap-2 transition shadow-sm"
                 >
-                  Book Free 30-Min Video Consultation
+                  Free skincare consultation
                 </button>
               </div>
             </div>

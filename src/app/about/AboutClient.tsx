@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
 import { CLINIC_INFO } from '@/data/siteData';
@@ -31,11 +32,14 @@ export default function AboutPage() {
             {/* Visual Avatar / Photo */}
             <div className="md:col-span-5 flex flex-col items-center text-center">
               <div className="w-52 h-52 rounded-3xl overflow-hidden shadow-xl border-4 border-white ring-1 ring-slate-200">
-                <img
+                <Image
                   src="/images/roslyn-bolton.jpg"
                   alt="Roslyn Bolton - Registered Nurse & Skin Specialist"
                   className="w-full h-full object-cover"
-                />
+  width={682}
+  height={1024}
+  sizes="208px"
+/>
               </div>
             </div>
 
@@ -111,7 +115,7 @@ export default function AboutPage() {
             className="px-8 py-3.5 rounded-xl bg-[#0a2240] text-white font-bold text-sm hover:bg-[#123661] shadow-lg transition inline-flex items-center gap-2"
           >
             <Calendar className="w-4 h-4 text-cyan-300" />
-            Book a Consultation with Roslyn Bolton
+            Free skincare consultation
           </button>
         </div>
       </div>

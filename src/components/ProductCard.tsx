@@ -1,11 +1,11 @@
 'use client';
 
+import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
 import { Product } from '@/types';
 import { splitProductName } from '@/lib/productName';
-import { useConsultation } from '@/context/ConsultationContext';
-import { Sparkles, Calendar, Eye, ShieldCheck } from 'lucide-react';
+import { Sparkles, ArrowRight, Eye, ShieldCheck } from 'lucide-react';
 
 interface ProductCardProps {
   product: Product;
@@ -13,7 +13,6 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ product, onQuickView }: ProductCardProps) {
-  const { openConsultation } = useConsultation();
   const isZO = product.brand === 'ZO Skin Health';
   const hasLocalImage = product.localImages && product.localImages.length > 0;
 
@@ -52,12 +51,14 @@ export default function ProductCard({ product, onQuickView }: ProductCardProps) 
         />
 
         {hasLocalImage ? (
-          <img
+          <Image
             src={product.localImages![0]}
             alt={product.name}
-            loading="lazy"
-            className="max-h-48 max-w-full object-contain drop-shadow-md group-hover:scale-105 transition-transform duration-300 relative z-10"
-          />
+            className="max-h-48 max-w-full object-contain drop-shadow-md group-hover:scale-105 transition-transform duration-300 relative z-10 w-auto h-auto"
+  width={600}
+  height={600}
+  sizes="(max-width: 640px) 80vw, 320px"
+/>
         ) : (
           /* Fallback Cosmetic Bottle */
           <div className="relative z-10 flex flex-col items-center">
@@ -150,14 +151,14 @@ export default function ProductCard({ product, onQuickView }: ProductCardProps) 
             </div>
           </div>
 
-          {/* Consultation Button (NO Buy Now / Add to Cart!) */}
-          <button
-            onClick={() => openConsultation(product.name)}
-            className="w-full py-2.5 px-4 rounded-xl font-semibold text-xs transition flex items-center justify-center gap-2 bg-[#0a2240] hover:bg-[#123661] text-white shadow-md shadow-blue-950/15"
+          {/* The booking call to action lives once in the page banner; cards lead to the product */}
+          <Link
+            href={`/shop/${product.slug}`}
+            className="w-full py-2.5 px-4 rounded-xl font-semibold text-xs transition flex items-center justify-center gap-2 border border-slate-300 text-[#0a2240] hover:bg-slate-50 hover:border-[#0a2240]"
           >
-            <Calendar className="w-3.5 h-3.5 text-cyan-300" />
-            Book Consultation
-          </button>
+            View product
+            <ArrowRight className="w-3.5 h-3.5" />
+          </Link>
         </div>
       </div>
     </div>

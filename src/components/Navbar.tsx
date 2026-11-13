@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
@@ -107,11 +108,15 @@ export default function Navbar() {
         <div className="flex items-center justify-between gap-3 sm:gap-4 lg:gap-4 xl:gap-5">
           {/* Logo with Significantly Enlarged Graphic Mark & Full Large Brand Name "Skin Medic Skin Care" */}
           <Link href="/" className="flex items-center gap-3 sm:gap-4 py-0.5 pr-1 sm:pr-2 xl:pr-3 group shrink-0">
-            <img
+            <Image
               src="/images/skin-medic-logo.png"
               alt="Skin Medic Skin Care"
               className="h-16 sm:h-[76px] md:h-[84px] lg:h-[92px] xl:h-[100px] w-auto object-contain transition-transform group-hover:scale-105 drop-shadow-sm shrink-0"
-            />
+  width={250}
+  height={250}
+  sizes="100px"
+  preload
+/>
 
             <div className="flex flex-col justify-center">
               <span className="font-serif font-bold text-[22px] sm:text-[28px] md:text-[30px] lg:text-[34px] xl:text-[38px] tracking-tight text-slate-900 group-hover:text-[#0a2240] transition leading-[1.08] sm:whitespace-nowrap">
@@ -121,7 +126,7 @@ export default function Navbar() {
           </Link>
 
           {/* Search bar with Live Autocomplete Dropdown (Compact input width to give enlarged logo generous room) */}
-          <div ref={desktopSearchRef} className="hidden min-[1440px]:block relative flex-1 min-w-[180px] max-w-[220px] mx-1">
+          <div ref={desktopSearchRef} className="hidden min-[1440px]:block relative flex-1 min-w-[140px] max-w-[220px] mx-1">
             <form onSubmit={handleSearchSubmit} className="relative flex items-center">
               <input
                 type="text"
@@ -170,11 +175,14 @@ export default function Navbar() {
                         {/* 45x45px Product Thumbnail */}
                         <div className="w-[45px] h-[45px] rounded-lg bg-slate-50 shrink-0 overflow-hidden border border-slate-200 flex items-center justify-center p-1 mt-0.5">
                           {p.localImages && p.localImages.length > 0 ? (
-                            <img
+                            <Image
                               src={p.localImages[0]}
                               alt={p.name}
                               className="w-full h-full object-contain"
-                            />
+  width={96}
+  height={96}
+  sizes="48px"
+/>
                           ) : (
                             <Sparkles className="w-4 h-4 text-slate-400" />
                           )}
@@ -347,10 +355,10 @@ export default function Navbar() {
           <div className="hidden sm:flex items-center gap-3 shrink-0">
             <button
               onClick={() => openConsultation()}
-              className="px-4 xl:px-5 py-2.5 rounded-xl bg-[#0a2240] text-white text-xs font-bold uppercase tracking-wider hover:bg-[#123661] shadow-md shadow-blue-950/20 hover:scale-[1.02] transition-all flex items-center gap-2 whitespace-nowrap"
+              className="px-4 xl:px-5 py-2.5 rounded-xl bg-[#0a2240] text-white text-[13px] font-semibold hover:bg-[#123661] shadow-md shadow-blue-950/20 hover:scale-[1.02] transition-all flex items-center gap-2 whitespace-nowrap"
             >
               <Calendar className="w-3.5 h-3.5 text-cyan-300" />
-              Book Consultation
+              Free skincare consultation
             </button>
           </div>
 
@@ -406,7 +414,7 @@ export default function Navbar() {
                     >
                       <div className="w-[45px] h-[45px] rounded-lg bg-slate-50 p-1 border border-slate-200 shrink-0 flex items-center justify-center">
                         {p.localImages && p.localImages.length > 0 ? (
-                          <img src={p.localImages[0]} alt={p.name} className="w-full h-full object-contain" />
+                          <Image src={p.localImages[0]} alt={p.name} className="w-full h-full object-contain" width={96} height={96} sizes="48px" />
                         ) : (
                           <Sparkles className="w-4 h-4 text-slate-400" />
                         )}
@@ -518,7 +526,7 @@ export default function Navbar() {
               className="w-full py-3.5 rounded-xl bg-[#0a2240] text-white text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2 shadow-lg"
             >
               <Calendar className="w-4 h-4 text-cyan-300" />
-              Book Free Skin Consultation
+              Free skincare consultation
             </button>
           </div>
         </div>

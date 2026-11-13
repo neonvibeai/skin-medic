@@ -113,7 +113,7 @@ export default function TreatmentsPage() {
             className="px-7 py-3.5 rounded-xl bg-[#0a2240] hover:bg-[#123661] text-white font-semibold text-xs uppercase tracking-wider transition shadow-lg shadow-blue-950/20 inline-flex items-center gap-2"
           >
             <Calendar className="w-4 h-4 text-cyan-300" />
-            Book Treatment Consultation
+            Book a treatment
           </a>
         </div>
 

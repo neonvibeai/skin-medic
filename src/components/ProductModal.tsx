@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
 import { Product } from '@/types';
@@ -54,11 +55,14 @@ export default function ProductModal({ product, onClose }: ProductModalProps) {
 
           {hasLocalImage ? (
             <div className="my-6 flex items-center justify-center h-64 w-full">
-              <img
+              <Image
                 src={product.localImages![0]}
                 alt={product.name}
-                className="max-h-56 max-w-full object-contain drop-shadow-lg"
-              />
+                className="max-h-56 max-w-full object-contain drop-shadow-lg w-auto h-auto"
+  width={600}
+  height={600}
+  sizes="(max-width: 768px) 80vw, 400px"
+/>
             </div>
           ) : (
             <div className="flex flex-col items-center my-6">
@@ -144,7 +148,7 @@ export default function ProductModal({ product, onClose }: ProductModalProps) {
               className="flex-1 py-3 px-5 rounded-xl bg-[#0a2240] text-white text-xs font-bold hover:bg-[#123661] transition flex items-center justify-center gap-2 shadow-md shadow-blue-950/20"
             >
               <Calendar className="w-4 h-4 text-cyan-300" />
-              Book Free Consultation For This Product
+              Free skincare consultation
             </button>
 
             <Link

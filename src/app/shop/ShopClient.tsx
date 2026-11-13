@@ -7,7 +7,7 @@ import ProductCard from '@/components/ProductCard';
 import ProductModal from '@/components/ProductModal';
 import { useConsultation } from '@/context/ConsultationContext';
 import { Product } from '@/types';
-import { Search, Filter, RotateCcw, Calendar, ShieldCheck, Sparkles, X } from 'lucide-react';
+import { Search, Filter, RotateCcw, ShieldCheck, Sparkles, X } from 'lucide-react';
 
 export default function ShopClient() {
   const { openConsultation } = useConsultation();
@@ -118,14 +118,6 @@ export default function ShopClient() {
                 <strong className="text-slate-800">Obagi® Medical</strong>.
               </p>
             </div>
-
-            <button
-              onClick={() => openConsultation()}
-              className="px-5 py-2.5 rounded-xl bg-[#0a2240] text-white text-xs font-bold hover:bg-[#123661] transition flex items-center justify-center gap-2 self-start md:self-auto shadow-sm"
-            >
-              <Calendar className="w-4 h-4 text-cyan-300" />
-              Book Free Skin Consultation
-            </button>
           </div>
 
           {/* Consultation Requirement Banner */}
@@ -139,7 +131,7 @@ export default function ShopClient() {
                   Why is there no direct checkout button?
                 </p>
                 <p className="text-slate-300">
-                  Under UK healthcare regulations, active medical-grade skincare (ZO & Obagi) requires professional qualification. Click <strong>&ldquo;Book Consultation&rdquo;</strong> on any product to begin your free 1-on-1 assessment with Roslyn Bolton.
+                  ZO and Obagi are physician-dispensed brands: they are supplied after a skin assessment with a qualified practitioner, and some products also need a prescription. Book a free 1-on-1 consultation with Roslyn Bolton to find the right products for your skin.
                 </p>
               </div>
             </div>
@@ -148,7 +140,7 @@ export default function ShopClient() {
               onClick={() => openConsultation()}
               className="px-4 py-2 rounded-lg bg-cyan-400 text-slate-950 text-xs font-bold hover:bg-cyan-300 transition shrink-0 whitespace-nowrap"
             >
-              Get Assessed Free
+              Free skincare consultation
             </button>
           </div>
         </div>

@@ -78,7 +78,7 @@ export default function FAQClient() {
             className="px-6 py-3 rounded-xl bg-cyan-400 text-slate-950 font-bold text-xs hover:bg-cyan-300 transition shrink-0 inline-flex items-center gap-2 shadow-md"
           >
             <Calendar className="w-4 h-4 text-slate-950" />
-            Book Free Consultation
+            Free skincare consultation
           </button>
         </div>
       </div>
