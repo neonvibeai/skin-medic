@@ -485,14 +485,15 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* ZO Featured Products Grid */}
+          {/* ZO Featured Products Grid (4 on mobile, 8 on desktop) */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {featuredZO.map((product) => (
-              <ProductCard
-                key={product.id}
-                product={product}
-                onQuickView={(p) => setQuickViewProduct(p)}
-              />
+            {featuredZO.map((product, idx) => (
+              <div key={product.id} className={idx >= 4 ? 'hidden sm:flex' : 'flex'}>
+                <ProductCard
+                  product={product}
+                  onQuickView={(p) => setQuickViewProduct(p)}
+                />
+              </div>
             ))}
           </div>
         </div>
@@ -736,12 +737,13 @@ export default function HomePage() {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5 sm:gap-6">
-              {mostLovedZO.map((product) => (
-                <ProductCard
-                  key={product.id}
-                  product={product}
-                  onQuickView={(p) => setQuickViewProduct(p)}
-                />
+              {mostLovedZO.map((product, idx) => (
+                <div key={product.id} className={idx >= 4 ? 'hidden sm:flex' : 'flex'}>
+                  <ProductCard
+                    product={product}
+                    onQuickView={(p) => setQuickViewProduct(p)}
+                  />
+                </div>
               ))}
             </div>
           </div>
@@ -801,12 +803,13 @@ export default function HomePage() {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-7">
-              {mostLovedObagi.map((product) => (
-                <ProductCard
-                  key={product.id}
-                  product={product}
-                  onQuickView={(p) => setQuickViewProduct(p)}
-                />
+              {mostLovedObagi.map((product, idx) => (
+                <div key={product.id} className={idx >= 4 ? 'hidden sm:flex' : 'flex'}>
+                  <ProductCard
+                    product={product}
+                    onQuickView={(p) => setQuickViewProduct(p)}
+                  />
+                </div>
               ))}
             </div>
           </div>
